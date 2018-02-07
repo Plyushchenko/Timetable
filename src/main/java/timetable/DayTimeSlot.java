@@ -1,16 +1,14 @@
-import javafx.util.Pair;
+package timetable;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class DayTimeSlot {
-    public static final int DAYS = 6;
-    public static final int LESSONS = 8;
+    final static int DAYS = 6;
+    final static int LESSONS = 8;
     private final int dayNumber;
     private final int lessonNumber;
-    public static final List<List<DayTimeSlot>> slotByDayAndTime = new ArrayList<>();
+    final static List<List<DayTimeSlot>> slotByDayAndTime = new ArrayList<>();
 
     static {
         for (int i = 0; i < DAYS; i++) {
@@ -22,7 +20,7 @@ public class DayTimeSlot {
          }
     }
 
-    public DayTimeSlot(int dayNumber, int lessonNumber) {
+    private DayTimeSlot(int dayNumber, int lessonNumber) {
         this.dayNumber = dayNumber;
         this.lessonNumber = lessonNumber;
     }

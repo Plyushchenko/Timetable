@@ -1,9 +1,6 @@
-import javafx.util.Pair;
-import org.w3c.dom.NamedNodeMap;
+package timetable;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import org.w3c.dom.NamedNodeMap;
 
 public class Lesson extends TimetableXMLObject {
     /*
@@ -12,19 +9,19 @@ public class Lesson extends TimetableXMLObject {
      periodsperweek="2.0" teacherids="FDF1633E7761AC0F" classroomids="" groupids="02E1D1C53DE4F814"
      capacity="*" seminargroup="" termsdefid="6E9537C4E45BEDBD" weeksdefid="73E75C404FFBAFCD" daysdefid="C6200ECA844AAE66" partner_id=""/>
      */
-    private static final String TEACHER_ID = "teacherids";
-    private static final String CLASS_ID = "classids";
-    private static final String GROUP_ID = "groupids";
-    private static final String SUBJECT_ID = "subjectid";
-    private static final String ENGLISH_ID = "127E27B14174157A";
-    private static final String PER_WEEK = "periodsperweek";
+    private final static String TEACHER_ID = "teacherids";
+    private final static String CLASS_ID = "classids";
+    private final static String GROUP_ID = "groupids";
+    private final static String SUBJECT_ID = "subjectid";
+    private final static String ENGLISH_ID = "127E27B14174157A";
+    private final static String PER_WEEK = "periodsperweek";
     private final Teacher teacher;
     private final int perWeek;
     private final LessonType lessonType;
     private final String subjectName;
     private final Subject subject;
 
-    public Lesson(NamedNodeMap attributes) {
+    Lesson(NamedNodeMap attributes) {
         super(attributes);
         String teacherId = attributes.getNamedItem(TEACHER_ID).getNodeValue();
         teacher = GetterById.getTeacherById(teacherId);
@@ -46,23 +43,23 @@ public class Lesson extends TimetableXMLObject {
         schoolClass.addLesson(this);
     }
 
-    public Teacher getTeacher() {
+    Teacher getTeacher() {
         return teacher;
     }
 
-    public int getPerWeek() {
+    int getPerWeek() {
         return perWeek;
     }
 
-    public String getSubjectName() {
+    String getSubjectName() {
         return subjectName;
     }
 
-    public LessonType getLessonType() {
+    LessonType getLessonType() {
         return lessonType;
     }
 
-    public Subject getSubject() {
+    Subject getSubject() {
         return subject;
     }
 }

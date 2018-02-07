@@ -1,12 +1,19 @@
+package timetable;
+
 import javafx.util.Pair;
 
+import java.io.*;
+import java.nio.channels.FileChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 
-public class Timetable {
-    private static final Set<String> onlySecondBuildingTeachersLastNames = Stream.of(
+class Timetable {
+    private final static Set<String> onlySecondBuildingTeachersLastNames = Stream.of(
             "Петрова",
             "Проценко",
             "Болдырева",
@@ -25,28 +32,62 @@ public class Timetable {
             "Попов",
             "Умеров"
     ).collect(Collectors.toSet());
-    private static final int PENALTY_CLASS_AT_FIRST_BUILDING = 10;
-    private static final int PENALTY_TEACHER_AT_FIRST_BUILDING = 10;
-    private static final int PENALTY_TEACHER_HAS_MORE_THAN_ONE_LESSON_AT_ONCE = 25;
-    private static final int PENALTY_WRONG_BUILDING = 50;
-    private static final int PENALTY_OPENING = 2;
-    private static final int PENALTY_TEACHER_CHANGES_BUILDING_WITHOUT_PAUSE = 10;
-    private static final int PENALTY_TOO_MANY_CHANGES_PER_DAY = 25;
-    private static final int PENALTY_TOO_MANY_CHANGES_PER_WEEK = 10;
-    private static final int ALLOWED_CHANGES_PER_DAY = 1;
-    private static final int ALLOWED_CHANGES_PER_WEEK = 2;
+    private final static int PENALTY_CLASS_AT_FIRST_BUILDING = 10;
+    private final static int PENALTY_TEACHER_AT_FIRST_BUILDING = 10;
+    private final static int PENALTY_TEACHER_HAS_MORE_THAN_ONE_LESSON_AT_ONCE = 25;
+    private final static int PENALTY_WRONG_BUILDING = 50;
+    private final static int PENALTY_OPENING = 2;
+    private final static int PENALTY_TEACHER_CHANGES_BUILDING_WITHOUT_PAUSE = 10;
+    private final static int PENALTY_TOO_MANY_CHANGES_PER_DAY = 25;
+    private final static int PENALTY_TOO_MANY_CHANGES_PER_WEEK = 10;
+    private final static int ALLOWED_CHANGES_PER_DAY = 1;
+    private final static int ALLOWED_CHANGES_PER_WEEK = 2;
+    private static final int BOUND = 0;
     private final Map<Pair<DayTimeSlot, SchoolClass>, Lesson> lessonByTime;
     private final Map<Pair<Integer, SchoolClass>, Building> buildingByDay;
     private final List<SchoolClass> schoolClasses;
     private final Set<SchoolClass> onlySecondBuildingSchoolClasses;
-    private final Random random = new Random(System.currentTimeMillis());
-    boolean xxx = false;
+    private final static Random random = new Random(System.currentTimeMillis());
 
-    public Timetable(List<SchoolClass> schoolClasses) {
+    Timetable(List<SchoolClass> schoolClasses) {
         this.schoolClasses = schoolClasses;
         lessonByTime = new HashMap<>();
         buildingByDay = new HashMap<>();
         onlySecondBuildingSchoolClasses = new HashSet<>();
+        setLessonsRandomly();
+        findOnlySecondBuildingSchoolClasses();
+        setBuildingsRandomly();
+    }
+
+    private void setBuildingsRandomly() {
+        for (SchoolClass schoolClass: schoolClasses) {
+            for (int i = 0; i < DayTimeSlot.DAYS; i++) {
+                Pair<Integer, SchoolClass> current = new Pair<>(i, schoolClass);
+                int buildingId;
+                if (onlySecondBuildingSchoolClasses.contains(schoolClass)) {
+                    buildingId = 2;
+                } else {
+                    buildingId = random.nextInt(2) + 1;
+                }
+                Building building = GetterById.getBuildingById(buildingId);
+                buildingByDay.put(current, building);
+            }
+        }
+    }
+
+    private void findOnlySecondBuildingSchoolClasses() {
+        for (SchoolClass schoolClass: schoolClasses) {
+            String name = schoolClass.getName();
+            boolean onlySecondBuilding = name.startsWith("5")
+                    || name.startsWith("6")
+                    || name.startsWith("7");
+            if (onlySecondBuilding) {
+                onlySecondBuildingSchoolClasses.add(schoolClass);
+            }
+        }
+    }
+
+    private void setLessonsRandomly() {
         for (SchoolClass schoolClass: schoolClasses) {
             Collections.shuffle(schoolClass.getLessons());
             int perWeek = schoolClass.getPerWeek();
@@ -60,33 +101,12 @@ public class Timetable {
                 }
             }
         }
-        for (SchoolClass schoolClass: schoolClasses) {
-            String name = schoolClass.getName();
-            boolean onlySecondBuilding = name.startsWith("5") || name.startsWith("6") || name.startsWith("7");
-            if (onlySecondBuilding) {
-                onlySecondBuildingSchoolClasses.add(schoolClass);
-                System.out.println(name);
-                System.out.println(schoolClass.getPairedDoubleDifferentLesson().getSubjectName());
-                System.out.println(schoolClass.getPairedDoubleSameLesson().getSubjectName());
-            }
-            for (int i = 0; i < DayTimeSlot.DAYS; i++) {
-                Pair<Integer, SchoolClass> current = new Pair<>(i, schoolClass);
-                int buildingId;
-                if (onlySecondBuilding) {
-                    buildingId = 2;
-                } else {
-                    buildingId = random.nextInt(2) + 1;
-                }
-                Building building = GetterById.getBuildingById(buildingId);
-                buildingByDay.put(current, building);
-            }
-        }
     }
 
-    public Timetable(List<SchoolClass> schoolClasses,
-                     Map<Pair<DayTimeSlot, SchoolClass>, Lesson> lessonByTime,
-                     Map<Pair<Integer, SchoolClass>, Building> buildingByDay,
-                     Set<SchoolClass> onlySecondBuildingSchoolClasses) {
+    private Timetable(List<SchoolClass> schoolClasses,
+                      Map<Pair<DayTimeSlot, SchoolClass>, Lesson> lessonByTime,
+                      Map<Pair<Integer, SchoolClass>, Building> buildingByDay,
+                      Set<SchoolClass> onlySecondBuildingSchoolClasses) {
         this.schoolClasses = schoolClasses;
         this.lessonByTime = lessonByTime;
         this.buildingByDay = buildingByDay;
@@ -94,7 +114,6 @@ public class Timetable {
     }
 
     private static List<Integer> splitNumber(int n, int m) {
-        Random random = new Random();
         while (true) {
             int sum = 0;
             List<Integer> result = new ArrayList<>();
@@ -108,7 +127,7 @@ public class Timetable {
         }
     }
 
-    public int evaluatePenalty() {
+    int evaluatePenalty() {
         int penalty = 0;
         Map<Teacher, List<List<Integer>>> buildingsOfTeachers = new HashMap<>();
         for (int i = 0; i < DayTimeSlot.DAYS; i++) {
@@ -121,25 +140,22 @@ public class Timetable {
                     if (lesson == null) {
                         continue;
                     }
-                    penalty += evaluatePenalty(i, j, schoolClass, lesson,
+                    penalty += evaluatePenaltyOfLesson(i, j, schoolClass, lesson,
                             buildingsOfTeachers, lessonsOfTeachers);
                     if (lesson.getLessonType() == LessonType.DOUBLE_SAME &&
                             !schoolClass.getPairedDoubleSameLesson().equals(lesson)) {
-                        penalty += evaluatePenalty(i, j, schoolClass,
+                        penalty += evaluatePenaltyOfLesson(i, j, schoolClass,
                                 schoolClass.getPairedDoubleSameLesson(),
                                 buildingsOfTeachers, lessonsOfTeachers);
                     }
                     if (lesson.getLessonType() == LessonType.DOUBLE_DIFFERENT &&
                             !schoolClass.getPairedDoubleDifferentLesson().equals(lesson)) {
-                        penalty += evaluatePenalty(i, j, schoolClass,
+                        penalty += evaluatePenaltyOfLesson(i, j, schoolClass,
                                 schoolClass.getPairedDoubleDifferentLesson(),
                                 buildingsOfTeachers, lessonsOfTeachers);
                     }
                 }
-                for (Set<Lesson> lessonsOfTeacher : lessonsOfTeachers.values()) {
-                    penalty += (lessonsOfTeacher.size() - 1) *
-                            PENALTY_TEACHER_HAS_MORE_THAN_ONE_LESSON_AT_ONCE;
-                }
+                penalty += evaluatePenaltyOfHavingMoreThenOneLessonAtOnce(lessonsOfTeachers);
             }
             for (SchoolClass schoolClass : schoolClasses) {
                 List<Boolean> isLesson = new ArrayList<>();
@@ -149,7 +165,7 @@ public class Timetable {
                     );
                     isLesson.add (lesson != null);
                 }
-                penalty += evaluatePenalty(isLesson);
+                penalty += evaluatePenaltyOfOpenings(isLesson);
 
                 if (onlySecondBuildingSchoolClasses.contains(schoolClass)
                         && buildingByDay.get(new Pair<>(i, schoolClass)).getId() != 2) {
@@ -160,6 +176,16 @@ public class Timetable {
         for (Teacher teacher: buildingsOfTeachers.keySet()) {
             penalty += evaluatePenaltyOfBuildingChange(buildingsOfTeachers.get(teacher),
                     onlySecondBuildingTeachersLastNames.contains(teacher.getLastName()));
+        }
+        return penalty;
+    }
+
+    private int evaluatePenaltyOfHavingMoreThenOneLessonAtOnce(Map<Teacher,
+            Set<Lesson>> lessonsOfTeachers) {
+        int penalty = 0;
+        for (Set<Lesson> lessonsOfTeacher : lessonsOfTeachers.values()) {
+            penalty += (lessonsOfTeacher.size() - 1) *
+                    PENALTY_TEACHER_HAS_MORE_THAN_ONE_LESSON_AT_ONCE;
         }
         return penalty;
     }
@@ -182,7 +208,7 @@ public class Timetable {
                 continue;
             }
             int last = current.get(l);
-            int pos = l;
+            int pos;
             for (int i = l + 1; i <= r; i++) {
                 int x = current.get(i);
                 if (onlySecondBuilding && x != 2) {
@@ -208,11 +234,10 @@ public class Timetable {
         if (changesPerWeek > ALLOWED_CHANGES_PER_WEEK) {
             penalty += PENALTY_TOO_MANY_CHANGES_PER_WEEK * (changesPerWeek - ALLOWED_CHANGES_PER_WEEK);
         }
-        //System.out.println(penalty);
         return penalty;
     }
 
-    private int evaluatePenalty(List<Boolean> isLesson) {
+    private int evaluatePenaltyOfOpenings(List<Boolean> isLesson) {
         int penalty = 0;
         int l = 0;
         while (l < isLesson.size() && !isLesson.get(l)) {
@@ -230,7 +255,7 @@ public class Timetable {
         return penalty;
     }
 
-    private int evaluatePenalty(int i, int j, SchoolClass schoolClass, Lesson lesson,
+    private int evaluatePenaltyOfLesson(int i, int j, SchoolClass schoolClass, Lesson lesson,
                                 Map<Teacher, List<List<Integer>>> buildingsOfTeachers,
                                 Map<Teacher, Set<Lesson>> lessonsOfTeachers) {
         Teacher teacher = lesson.getTeacher();
@@ -238,15 +263,7 @@ public class Timetable {
         int buildingId = building.getId();
         lessonsOfTeachers.putIfAbsent(teacher, new HashSet<>());
         lessonsOfTeachers.get(teacher).add(lesson);
-        List<List<Integer>> buildingIds = new ArrayList<>();
-        for (int k = 0; k < DayTimeSlot.DAYS; k++) {
-            List<Integer> kthDay = new ArrayList<>();
-            for (int q = 0; q < DayTimeSlot.LESSONS; q++) {
-                kthDay.add(0);
-            }
-            buildingIds.add(kthDay);
-        }
-        buildingsOfTeachers.putIfAbsent(teacher, buildingIds);
+        buildingsOfTeachers.putIfAbsent(teacher, emptyBuildingIds());
         buildingsOfTeachers.get(teacher).get(i).set(j, buildingId);
         Subject subject = lesson.getSubject();
         if (building.isNotPossibleSubject(subject)) {
@@ -255,18 +272,16 @@ public class Timetable {
         return 0;
     }
 
-    private void swapLessons() {
-              for (SchoolClass schoolClass: schoolClasses) {
-            for (int i = 0; i < DayTimeSlot.DAYS; i++) {
-                for (int j = 0; j < DayTimeSlot.LESSONS; j++) {
-                    for (int k = i; k  < DayTimeSlot.DAYS; k++) {
-                        for (int q = (i == k) ? j + 1 : 0; q < DayTimeSlot.LESSONS; q++) {
-                            swapLessons(schoolClass, i, j, k, q);
-                        }
-                    }
-                }
+    private static List<List<Integer>> emptyBuildingIds() {
+        List<List<Integer>> buildingIds = new ArrayList<>();
+        for (int k = 0; k < DayTimeSlot.DAYS; k++) {
+            List<Integer> kthDay = new ArrayList<>();
+            for (int q = 0; q < DayTimeSlot.LESSONS; q++) {
+                kthDay.add(0);
             }
+            buildingIds.add(kthDay);
         }
+        return buildingIds;
     }
 
     private Timetable swapLessons(SchoolClass schoolClass, int i, int j, int k, int q) {
@@ -284,21 +299,12 @@ public class Timetable {
         Lesson l2 = lessonByTime.get(p2);
         modifiedLessonByTime.put(p1, l2);
         modifiedLessonByTime.put(p2, l1);
-        Timetable modifiedTimetable = new Timetable(
+        return new Timetable(
                 schoolClasses,
                 modifiedLessonByTime,
                 buildingByDay,
                 onlySecondBuildingSchoolClasses
         );
-        return modifiedTimetable;
-    }
-
-    private void changeBuildings() {
-        for (SchoolClass schoolClass: schoolClasses) {
-            for (int i = 0; i < DayTimeSlot.DAYS; i++) {
-                changeBuildings(schoolClass, i);
-            }
-        }
     }
 
     private Timetable changeBuildings(SchoolClass schoolClass, int i) {
@@ -309,27 +315,22 @@ public class Timetable {
         Map<Pair<Integer, SchoolClass>, Building> modifiedBuildingByDay = new HashMap<>();
         buildingByDay.forEach(modifiedBuildingByDay::put);
         modifiedBuildingByDay.put(current, building);
-        Timetable modifiedTimetable = new Timetable(
+        return new Timetable(
                 schoolClasses,
                 lessonByTime,
                 modifiedBuildingByDay,
                 onlySecondBuildingSchoolClasses
         );
-        return modifiedTimetable;
     }
 
-    public Timetable simulatedAnnealing(double temperature, double coolingRate) {
+    Timetable simulatedAnnealing(double temperature, double coolingRate) {
         Timetable currentTimetable = this;
         Timetable bestTimetable = currentTimetable;
         int bestPenalty = evaluatePenalty();
-        int goal = (int)((double)(bestPenalty * 2) / 5);
-        for (long i = 0; i < 50000; i++) {
+        int initialPenalty = bestPenalty;
+        for (long i = 0; bestPenalty > BOUND; i++) {
             if (i % 1000 == 0) {
-                System.out.print(i + " ");
-                if (i % 10000 == 0)
-                    System.out.println();
-                if (i % 2500 == 0)
-                    System.out.println(temperature + " " + coolingRate);
+                System.out.println(i + " ITERATIONS");
             }
             Timetable neighbourTimetable = currentTimetable.generateNeighbour();
             int neighbourPenalty = neighbourTimetable.evaluatePenalty();
@@ -341,16 +342,13 @@ public class Timetable {
                 currentTimetable = neighbourTimetable;
                 currentPenalty = neighbourPenalty;
             }
-            //System.out.println(currentPenalty + " " + neighbourPenalty + " " + bestPenalty);
             if (currentPenalty < bestPenalty) {
                 bestTimetable = currentTimetable;
                 bestPenalty = currentPenalty;
-                System.out.println(" BEST " + bestPenalty);
+                System.out.println("BEST RESULT IS " + bestPenalty + ", INITIAL ONE IS " + initialPenalty);
             }
             temperature *= coolingRate;
-            //System.out.println(temperature);
         }
-        //System.out.println(bestPenalty);
         return bestTimetable;
     }
 
@@ -365,13 +363,25 @@ public class Timetable {
             int lessonNumber = random.nextInt(DayTimeSlot.LESSONS);
             int dayNumber2 = random.nextInt(DayTimeSlot.DAYS);
             int lessonNumber2 = random.nextInt(DayTimeSlot.LESSONS);
-            neighbourTimetable = swapLessons(schoolClass, dayNumber, lessonNumber, dayNumber2, lessonNumber2);
+            neighbourTimetable = swapLessons(schoolClass,
+                    dayNumber, lessonNumber,
+                    dayNumber2, lessonNumber2
+            );
         }
         return neighbourTimetable;
     }
 
-    //TODO XML и парные уроки
-    public void print() {
+    void print() throws IOException {
+        Path timetablePath = Files.createFile(Paths.get(Main.RESOURCES_PATH.toString(),
+                "timetable-" + Integer.toString(random.nextInt()) + ".xml"));
+        Path templatePath = Paths.get(Main.RESOURCES_PATH.toString(), "template.xml");
+        PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(
+                timetablePath.toString(), true)));
+        FileChannel source = new FileInputStream(templatePath.toFile()).getChannel();
+        FileChannel destination = new FileOutputStream(timetablePath.toFile()).getChannel();
+        destination.transferFrom(source, 0, source.size());
+
+        out.println("   <cards options=\"canadd,export:silent\" columns=\"lessonid,period,days,weeks,terms,classroomids\">");
         for (int i = 0; i < 6; i++) {
             for (SchoolClass schoolClass: schoolClasses) {
                 System.out.println("CLASS IS " + schoolClass.getName() + ", DAY = " + i + ", BUILDING = " + buildingByDay.get(new Pair<>(i, schoolClass)).getId());
@@ -381,22 +391,45 @@ public class Timetable {
                         System.out.println("LESSON #" + j + " NULL");
                         continue;
                     }
+                    printCard(out, i, j, lesson);
                     String a = lesson.getSubjectName();
                     String b = lesson.getTeacher().getName();
                     System.out.println("LESSON #" + j + " " + a + " " + b);
                     if (lesson.getLessonType() == LessonType.DOUBLE_SAME
                             && !schoolClass.getPairedDoubleSameLesson().equals(lesson)) {
                         Lesson t = schoolClass.getPairedDoubleSameLesson();
+                        printCard(out, i, j, t);
                         System.out.println("LESSON #" + j + " " + t.getSubjectName() + " " + t.getTeacher().getName() + " DOUBLE_SAME");
                     }
                     if (lesson.getLessonType() == LessonType.DOUBLE_DIFFERENT
                             && !schoolClass.getPairedDoubleDifferentLesson().equals(lesson)) {
                         Lesson t = schoolClass.getPairedDoubleDifferentLesson();
+                        printCard(out, i, j, t);
                         System.out.println("LESSON #" + j + " " + t.getSubjectName() + " " + t.getTeacher().getName() + " DOUBLE_DIFFERENT");
                     }
-
                 }
             }
         }
+        out.println("   </cards>");
+        out.println("</timetable>");
+        out.close();
+        System.out.println("XML FILE IS AT " + timetablePath.toString());
+
+    }
+
+    private void printCard(PrintWriter out, int i, int j, Lesson lesson) {
+        /*
+        Format:
+        <card lessonid="EC9D7298C0920B8D" classroomids="" period="2" weeks="1" terms="1" days="100000"/>
+         */
+        out.print("      <card lessonid=\"" + lesson.getId()
+                + "\" classroomids=\"\" period=\"" + (j + 1) + "\" weeks=\"1\" terms=\"1\" days=\"");
+        for (int k = 0; k < i; k++)
+            out.print("0");
+        out.print("1");
+        for (int k = i + 1; k < DayTimeSlot.DAYS; k++) {
+            out.print("0");
+        }
+        out.println("\"/>");
     }
 }

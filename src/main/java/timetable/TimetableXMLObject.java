@@ -1,11 +1,14 @@
+package timetable;
+
 import org.w3c.dom.NamedNodeMap;
 
 public abstract class TimetableXMLObject {
-    public static final String ID = "id";
+    private final static String ID = "id";
+    final static String NAME = "name";
     private final String id;
-    protected final NamedNodeMap attributes;
+    private final NamedNodeMap attributes;
 
-    protected TimetableXMLObject(NamedNodeMap attributes) {
+    TimetableXMLObject(NamedNodeMap attributes) {
         this.attributes = attributes;
         id = getStringValue(ID);
     }
@@ -14,7 +17,7 @@ public abstract class TimetableXMLObject {
         return id;
     }
 
-    protected String getStringValue(String namedItem) {
+    String getStringValue(String namedItem) {
         return attributes.getNamedItem(namedItem).getNodeValue();
     }
 }

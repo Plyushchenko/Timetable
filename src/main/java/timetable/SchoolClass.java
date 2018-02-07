@@ -1,11 +1,9 @@
-import javafx.util.Pair;
+package timetable;
+
 import org.w3c.dom.NamedNodeMap;
-import sun.font.AttributeValues;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class SchoolClass extends TimetableXMLObject {
     /*
@@ -14,28 +12,21 @@ public class SchoolClass extends TimetableXMLObject {
      */
     private final List<Lesson> lessons = new ArrayList<>();
     private final List<SchoolGroup> schoolGroups = new ArrayList<>();
-    private final List<Lesson> differentLessonsByGroups = new ArrayList<>();
     private Lesson pairedDoubleSameLesson;
     private Lesson pairedDoubleDifferentLesson;
-    private final static String NAME = "name";
     private final String name;
 
-    protected SchoolClass(NamedNodeMap attributes) {
+    SchoolClass(NamedNodeMap attributes) {
         super(attributes);
         GetterById.addSchoolClassById(getId(), this);
         name = getStringValue("name");
     }
 
-    public int getPerWeek() {
+    int getPerWeek() {
         return lessons.size();
     }
 
-    public void addSchoolGroup(SchoolGroup schoolGroup) {
-        schoolGroups.add(schoolGroup);
-    }
-
-
-    public void addLesson(Lesson lesson) {
+    void addLesson(Lesson lesson) {
         int perWeek = lesson.getPerWeek();
         if (lesson.getLessonType() == LessonType.DOUBLE_SAME) {
             if (pairedDoubleSameLesson == null) {
@@ -43,8 +34,7 @@ public class SchoolClass extends TimetableXMLObject {
                 return;
             }
         } else  if (lesson.getLessonType() == LessonType.DOUBLE_DIFFERENT) {
-            if (pairedDoubleDifferentLesson == null ||
-                    pairedDoubleDifferentLesson.getSubjectName().equals(lesson.getSubjectName())) {
+            if (pairedDoubleDifferentLesson == null) {
                 pairedDoubleDifferentLesson = lesson;
                 return;
             }
@@ -54,23 +44,19 @@ public class SchoolClass extends TimetableXMLObject {
         }
     }
 
-    public List<SchoolGroup> getSchoolGroups() {
-        return schoolGroups;
-    }
-
-    public List<Lesson> getLessons() {
+    List<Lesson> getLessons() {
         return lessons;
     }
 
-    public String getName() {
+    String getName() {
         return name;
     }
 
-    public Lesson getPairedDoubleSameLesson() {
+    Lesson getPairedDoubleSameLesson() {
         return pairedDoubleSameLesson;
     }
 
-    public Lesson getPairedDoubleDifferentLesson() {
+    Lesson getPairedDoubleDifferentLesson() {
         return pairedDoubleDifferentLesson;
     }
 

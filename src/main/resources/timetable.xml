@@ -27,144 +27,144 @@
       <termsdef id="6E9537C4E45BEDBD" name="Whole year" short="YR" terms="1"/>
    </termsdefs>
    <subjects options="canadd,export:silent" columns="id,name,short,partner_id">
-      <subject id="E49460261EB6948A" name="Áèîëîãèÿ" short="Áèîë" partner_id=""/>
-      <subject id="6DF9C9083F7C4895" name="Ãåîãðàôèÿ" short="Ãåîã" partner_id=""/>
-      <subject id="4A757671ED3CEAD2" name="ÈÇÎ" short="ÈÇÎ" partner_id=""/>
-      <subject id="E1376672B6D4C7D2" name="Èíôîðìàòèêà è ÈÊÒ" short="Èíô" partner_id=""/>
-      <subject id="E5AF72819DFF5192" name="Èñòîðèÿ" short="Èñò" partner_id=""/>
-      <subject id="AC3CD4784E4EDB59" name="Ëèòåðàòóðà" short="Ëèò" partner_id=""/>
-      <subject id="426CF767A7275310" name="Ìàòåìàòèêà" short="Ìàò" partner_id=""/>
-      <subject id="E8CDA7F6A2BF5D4C" name="Ìàòåìàòèêà-ñåìèíàðû" short="ÌÑåì" partner_id=""/>
-      <subject id="3EA2397F069ADBEE" name="Ìàòåìàòè÷åñêèé àíàëèç" short="Ìàòàí" partner_id=""/>
-      <subject id="83253BBE3A86F3AF" name="Ìóçûêà" short="Ìóç" partner_id=""/>
-      <subject id="45BF050EA3B33B37" name="Îáùåñòâîçíàíèå" short="Îáù" partner_id=""/>
-      <subject id="5B824BA1B6CFFD4F" name="Îñíîâû áåçîïàñíîñòè æèçíåäåÿòåëüíîñòè" short="ÎÁÆ" partner_id=""/>
-      <subject id="08BCC347F53EFCE7" name="Ðóññêèé ÿçûê" short="Ðóñ" partner_id=""/>
-      <subject id="55EFE559B067F02A" name="Òåõíîëîãèÿ" short="Òåõ" partner_id=""/>
-      <subject id="ED21035E8C7EDD9B" name="Ôèçèêà" short="Ôèç" partner_id=""/>
-      <subject id="DF05A4CBFC5E213C" name="Ôèçè÷åñêàÿ êóëüòóðà" short="Ôèç-ðà" partner_id=""/>
-      <subject id="FDF98D50C526934D" name="Ôèçè÷åñêàÿ ëàáîðàòîðèÿ" short="ÔËàá" partner_id=""/>
-      <subject id="1483CA1173F95AC2" name="Õèìèÿ" short="Õèì" partner_id=""/>
-      <subject id="E9A0557D0F7153DE" name="Èñêóññòâî" short="Èñê-âî" partner_id=""/>
-      <subject id="AC574367964A9476" name="Èñòîðèÿ è êóëüòóðà ÑÏá" short="ÈñòÑÏá" partner_id=""/>
-      <subject id="127E27B14174157A" name="Àíãëèéñêèé ÿçûê" short="Àíãë" partner_id=""/>
-      <subject id="F7CD3BEA07730B20" name="Àëãåáðà" short="Àëã" partner_id=""/>
-      <subject id="49E869EEDA1389B5" name="Ãåîìåòðèÿ" short="Ãåîì" partner_id=""/>
+      <subject id="E49460261EB6948A" name="Ð‘Ð¸Ð¾Ð»Ð¾Ð³Ð¸Ñ" short="Ð‘Ð¸Ð¾Ð»" partner_id=""/>
+      <subject id="6DF9C9083F7C4895" name="Ð“ÐµÐ¾Ð³Ñ€Ð°Ñ„Ð¸Ñ" short="Ð“ÐµÐ¾Ð³" partner_id=""/>
+      <subject id="4A757671ED3CEAD2" name="Ð˜Ð—Ðž" short="Ð˜Ð—Ðž" partner_id=""/>
+      <subject id="E1376672B6D4C7D2" name="Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ð¸ÐºÐ° Ð¸ Ð˜ÐšÐ¢" short="Ð˜Ð½Ñ„" partner_id=""/>
+      <subject id="E5AF72819DFF5192" name="Ð˜ÑÑ‚Ð¾Ñ€Ð¸Ñ" short="Ð˜ÑÑ‚" partner_id=""/>
+      <subject id="AC3CD4784E4EDB59" name="Ð›Ð¸Ñ‚ÐµÑ€Ð°Ñ‚ÑƒÑ€Ð°" short="Ð›Ð¸Ñ‚" partner_id=""/>
+      <subject id="426CF767A7275310" name="ÐœÐ°Ñ‚ÐµÐ¼Ð°Ñ‚Ð¸ÐºÐ°" short="ÐœÐ°Ñ‚" partner_id=""/>
+      <subject id="E8CDA7F6A2BF5D4C" name="ÐœÐ°Ñ‚ÐµÐ¼Ð°Ñ‚Ð¸ÐºÐ°-ÑÐµÐ¼Ð¸Ð½Ð°Ñ€Ñ‹" short="ÐœÐ¡ÐµÐ¼" partner_id=""/>
+      <subject id="3EA2397F069ADBEE" name="ÐœÐ°Ñ‚ÐµÐ¼Ð°Ñ‚Ð¸Ñ‡ÐµÑÐºÐ¸Ð¹ Ð°Ð½Ð°Ð»Ð¸Ð·" short="ÐœÐ°Ñ‚Ð°Ð½" partner_id=""/>
+      <subject id="83253BBE3A86F3AF" name="ÐœÑƒÐ·Ñ‹ÐºÐ°" short="ÐœÑƒÐ·" partner_id=""/>
+      <subject id="45BF050EA3B33B37" name="ÐžÐ±Ñ‰ÐµÑÑ‚Ð²Ð¾Ð·Ð½Ð°Ð½Ð¸Ðµ" short="ÐžÐ±Ñ‰" partner_id=""/>
+      <subject id="5B824BA1B6CFFD4F" name="ÐžÑÐ½Ð¾Ð²Ñ‹ Ð±ÐµÐ·Ð¾Ð¿Ð°ÑÐ½Ð¾ÑÑ‚Ð¸ Ð¶Ð¸Ð·Ð½ÐµÐ´ÐµÑÑ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚Ð¸" short="ÐžÐ‘Ð–" partner_id=""/>
+      <subject id="08BCC347F53EFCE7" name="Ð ÑƒÑÑÐºÐ¸Ð¹ ÑÐ·Ñ‹Ðº" short="Ð ÑƒÑ" partner_id=""/>
+      <subject id="55EFE559B067F02A" name="Ð¢ÐµÑ…Ð½Ð¾Ð»Ð¾Ð³Ð¸Ñ" short="Ð¢ÐµÑ…" partner_id=""/>
+      <subject id="ED21035E8C7EDD9B" name="Ð¤Ð¸Ð·Ð¸ÐºÐ°" short="Ð¤Ð¸Ð·" partner_id=""/>
+      <subject id="DF05A4CBFC5E213C" name="Ð¤Ð¸Ð·Ð¸Ñ‡ÐµÑÐºÐ°Ñ ÐºÑƒÐ»ÑŒÑ‚ÑƒÑ€Ð°" short="Ð¤Ð¸Ð·-Ñ€Ð°" partner_id=""/>
+      <subject id="FDF98D50C526934D" name="Ð¤Ð¸Ð·Ð¸Ñ‡ÐµÑÐºÐ°Ñ Ð»Ð°Ð±Ð¾Ñ€Ð°Ñ‚Ð¾Ñ€Ð¸Ñ" short="Ð¤Ð›Ð°Ð±" partner_id=""/>
+      <subject id="1483CA1173F95AC2" name="Ð¥Ð¸Ð¼Ð¸Ñ" short="Ð¥Ð¸Ð¼" partner_id=""/>
+      <subject id="E9A0557D0F7153DE" name="Ð˜ÑÐºÑƒÑÑÑ‚Ð²Ð¾" short="Ð˜ÑÐº-Ð²Ð¾" partner_id=""/>
+      <subject id="AC574367964A9476" name="Ð˜ÑÑ‚Ð¾Ñ€Ð¸Ñ Ð¸ ÐºÑƒÐ»ÑŒÑ‚ÑƒÑ€Ð° Ð¡ÐŸÐ±" short="Ð˜ÑÑ‚Ð¡ÐŸÐ±" partner_id=""/>
+      <subject id="127E27B14174157A" name="ÐÐ½Ð³Ð»Ð¸Ð¹ÑÐºÐ¸Ð¹ ÑÐ·Ñ‹Ðº" short="ÐÐ½Ð³Ð»" partner_id=""/>
+      <subject id="F7CD3BEA07730B20" name="ÐÐ»Ð³ÐµÐ±Ñ€Ð°" short="ÐÐ»Ð³" partner_id=""/>
+      <subject id="49E869EEDA1389B5" name="Ð“ÐµÐ¾Ð¼ÐµÑ‚Ñ€Ð¸Ñ" short="Ð“ÐµÐ¾Ð¼" partner_id=""/>
    </subjects>
    <teachers options="canadd,export:silent" columns="id,name,short,gender,color,email,mobile,partner_id,firstname,lastname">
-      <teacher id="E8755AC1BC56DB7C" firstname="Àííà Àíàòîëüåâíà" lastname="Àãàôîíîâà" name="Àãàôîíîâà Àííà Àíàòîëüåâíà" short="Àãàôîíîâà AA" gender="F" color="#FF0000" email="" mobile="" partner_id=""/>
-      <teacher id="FF8EBDD718CDE08A" firstname="Ìàðèÿ Àíàòîëüåâíà" lastname="Àëåêñàíäðîâà" name="Àëåêñàíäðîâà Ìàðèÿ Àíàòîëüåâíà" short="Àëåêñàíäðîâà ÌÀ" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
-      <teacher id="F5B818289ED81F13" firstname="Íàòàëèÿ Âëàäèìèðîâíà" lastname="Àëåêñàíäðîâà" name="Àëåêñàíäðîâà Íàòàëèÿ Âëàäèìèðîâíà" short="Àëåêñàíäðîâà ÍÂ" gender="F" color="#0000FF" email="" mobile="" partner_id=""/>
-      <teacher id="B374A751FAC65B35" firstname="Þðèé Âèêòîðîâè÷" lastname="Àìáðîñîâñêèé" name="Àìáðîñîâñêèé Þðèé Âèêòîðîâè÷" short="Àìáðîñîâñêèé ÞÂ" gender="F" color="#FFCCFF" email="" mobile="" partner_id=""/>
-      <teacher id="0BD8A1799414E409" firstname="Èðèíà Âëàäèìèðîâíà" lastname="Àðøèíîâà" name="Àðøèíîâà Èðèíà Âëàäèìèðîâíà" short="Àðøèíîâà ÈÂ" gender="F" color="#FFFF66" email="" mobile="" partner_id=""/>
-      <teacher id="E78FE1AAF14B942C" firstname="Êèðà Èâàíîâíà" lastname="Áàðàíîâà" name="Áàðàíîâà Êèðà Èâàíîâíà" short="Áàðàíîâà ÊÈ" gender="F" color="#FF6666" email="" mobile="" partner_id=""/>
-      <teacher id="8B6C961A1847B207" firstname="Íàòàëüÿ Ðàøèäîâíà" lastname="Áèêòàøåâà" name="Áèêòàøåâà Íàòàëüÿ Ðàøèäîâíà" short="Áèêòàøåâà ÍÐ" gender="F" color="#FFCC66" email="" mobile="" partner_id=""/>
-      <teacher id="295781F666D14DD7" firstname="Îëüãà Àíàòîëüåâíà" lastname="Áîëäûðåâà" name="Áîëäûðåâà Îëüãà Àíàòîëüåâíà" short="Áîëäûðåâà ÎÀ" gender="F" color="#14C0C0" email="" mobile="" partner_id=""/>
-      <teacher id="CCF5F662CD792FD6" firstname="Àíàñòàñèÿ Ñåðãååâíà" lastname="Âàñèëüåâà" name="Âàñèëüåâà Àíàñòàñèÿ Ñåðãååâíà" short="Âàñèëüåâà ÀÑ" gender="F" color="#66FFFF" email="" mobile="" partner_id=""/>
-      <teacher id="8814EA9BC3F21365" firstname="Âèòàëèé Àëåêñàíäðîâè÷" lastname="Ãàëèíñêèé" name="Ãàëèíñêèé Âèòàëèé Àëåêñàíäðîâè÷" short="Ãàëèíñêèé ÂÀ" gender="F" color="#009933" email="" mobile="" partner_id=""/>
-      <teacher id="EBE3335B5A456F5E" firstname="Èðèíà Ñåðãååâíà" lastname="Ãíåäèíà" name="Ãíåäèíà Èðèíà Ñåðãååâíà" short="Ãíåäèíà ÈÑ" gender="F" color="#DDFF97" email="" mobile="" partner_id=""/>
-      <teacher id="9E4A12772D299C92" firstname="Ñâåòëàíà Âèêòîðîâíà" lastname="Ãîðþíîâà" name="Ãîðþíîâà Ñâåòëàíà Âèêòîðîâíà" short="Ãîðþíîâà ÑÂ" gender="F" color="#669900" email="" mobile="" partner_id=""/>
-      <teacher id="EE2F30326CD01CFC" firstname="Îëüãà Àíàòîëüåâíà" lastname="Ãðèãîðüåâà" name="Ãðèãîðüåâà Îëüãà Àíàòîëüåâíà" short="Ãðèãîðüåâà ÎÀ" gender="F" color="#66FF66" email="" mobile="" partner_id=""/>
-      <teacher id="84D94C10FFF72DF4" firstname="Èííà Äàâèäîâíà" lastname="Äàóãàâåò" name="Äàóãàâåò Èííà Äàâèäîâíà" short="Äàóãàâåò ÈÄ" gender="F" color="#FFFFCC" email="" mobile="" partner_id=""/>
-      <teacher id="B9B16DBC5FC26047" firstname="Âàëåíòèí Àíäðååâè÷" lastname="Åâñòàôüåâ" name="Åâñòàôüåâ Âàëåíòèí Àíäðååâè÷" short="Åâñòàôüåâ ÂÀ" gender="F" color="#6666FF" email="" mobile="" partner_id=""/>
-      <teacher id="0D41212C5FE9CC9C" firstname="Çîÿ Âÿ÷åñëàâîâíà" lastname="Åëèñååâà" name="Åëèñååâà Çîÿ Âÿ÷åñëàâîâíà" short="Åëèñååâà ÇÂ" gender="F" color="#993333" email="" mobile="" partner_id=""/>
-      <teacher id="B6598DD3DAEB1477" firstname="Åëåíà Âàëåðüåâíà" lastname="Æèòíàÿ" name="Æèòíàÿ Åëåíà Âàëåðüåâíà" short="Æèòíàÿ ÅÂ" gender="F" color="#CCFFFF" email="" mobile="" partner_id=""/>
-      <teacher id="A521E67D8E71FE75" firstname="Íàòàëüÿ Áîðèñîâíà" lastname="Çàõàðîâà" name="Çàõàðîâà Íàòàëüÿ Áîðèñîâíà" short="Çàõàðîâà ÍÁ" gender="F" color="#33CC33" email="" mobile="" partner_id=""/>
-      <teacher id="D42BDF85FE450CB6" firstname="Ñâåòëàíà Àëåêñàíäðîâíà" lastname="Èâàíîâà" name="Èâàíîâà Ñâåòëàíà Àëåêñàíäðîâíà" short="Èâàíîâà ÑÀ" gender="F" color="#99FF66" email="" mobile="" partner_id=""/>
-      <teacher id="6D2E38E8B8412D10" firstname="Òàòüÿíà Þðüåâíà" lastname="Èâàíîâà" name="Èâàíîâà Òàòüÿíà Þðüåâíà" short="Èâàíîâà ÒÞ" gender="F" color="#3333FF" email="" mobile="" partner_id=""/>
-      <teacher id="79D3DE5DEECA388C" firstname="Àíàñòàñèÿ Íèêîëàåâíà" lastname="Èëüèíà" name="Èëüèíà Àíàñòàñèÿ Íèêîëàåâíà" short="Èëüèíà ÀÍ" gender="F" color="#00CCFF" email="" mobile="" partner_id=""/>
-      <teacher id="E070DAF0452907D3" firstname="Ýëüâèðà Âàñèëüåâíà" lastname="Èîâëåâà" name="Èîâëåâà Ýëüâèðà Âàñèëüåâíà" short="Èîâëåâà ÝÂ" gender="F" color="#FFFFFF" email="" mobile="" partner_id=""/>
-      <teacher id="B4E69D916FA5C507" firstname="Åëåíà Ãåííàäüåâíà" lastname="Êèñëóõèíà" name="Êèñëóõèíà Åëåíà Ãåííàäüåâíà" short="Êèñëóõèíà ÅÃ" gender="F" color="#00CC00" email="" mobile="" partner_id=""/>
-      <teacher id="DDF352606A4764E7" firstname="Ðèììà Ñóëòàíáåêîâíà" lastname="Êíÿçåâà" name="Êíÿçåâà Ðèììà Ñóëòàíáåêîâíà" short="Êíÿçåâà ÐÑ" gender="F" color="#808080" email="" mobile="" partner_id=""/>
-      <teacher id="2C19DEA3BECB9157" firstname="Îëüãà Ñåðãååâíà" lastname="Êîçëîâà" name="Êîçëîâà Îëüãà Ñåðãååâíà" short="Êîçëîâà ÎÑ" gender="F" color="#FFFF00" email="" mobile="" partner_id=""/>
-      <teacher id="395800A7FAE28F2B" firstname="Èðèíà Âèêòîðîâíà" lastname="Êîëîíèñòîâà" name="Êîëîíèñòîâà Èðèíà Âèêòîðîâíà" short="Êîëîíèñòîâà ÈÂ" gender="F" color="#FF00FF" email="" mobile="" partner_id=""/>
-      <teacher id="429AA20C42529DCE" firstname="Ñåðãåé Àíäðååâè÷" lastname="Êîðîëåâ" name="Êîðîëåâ Ñåðãåé Àíäðååâè÷" short="Êîðîëåâ ÑÀ" gender="F" color="#00FFFF" email="" mobile="" partner_id=""/>
-      <teacher id="C5B783151D7DF019" firstname="Íàòàëèÿ Âëàäèìèðîâíà" lastname="Êðàñíîâà" name="Êðàñíîâà Íàòàëèÿ Âëàäèìèðîâíà" short="Êðàñíîâà ÍÂ" gender="F" color="#808000" email="" mobile="" partner_id=""/>
-      <teacher id="9D6E51457F18356E" firstname="Íýëëÿ Âëàäèìèðîâíà" lastname="Êóëèêîâà" name="Êóëèêîâà Íýëëÿ Âëàäèìèðîâíà" short="Êóëèêîâà ÍÂ" gender="F" color="#800080" email="" mobile="" partner_id=""/>
-      <teacher id="6C1F580AAD44B9ED" firstname="Åêàòåðèíà Íèêîëàåâíà" lastname="Ëàçàðåíêî" name="Ëàçàðåíêî Åêàòåðèíà Íèêîëàåâíà" short="Ëàçàðåíêî ÅÍ" gender="F" color="#008080" email="" mobile="" partner_id=""/>
-      <teacher id="B2186A9CF2FB538C" firstname="Ëþäìèëà Ìèõàéëîâíà" lastname="Ëàðèîíîâà" name="Ëàðèîíîâà Ëþäìèëà Ìèõàéëîâíà" short="Ëàðèîíîâà ËÌ" gender="F" color="#FF8080" email="" mobile="" partner_id=""/>
-      <teacher id="6A97999443A32B1C" firstname="Åêàòåðèíà Ïàâëîâíà" lastname="Ëóçèíà" name="Ëóçèíà Åêàòåðèíà Ïàâëîâíà" short="Ëóçèíà ÅÏ" gender="F" color="#80FF80" email="" mobile="" partner_id=""/>
-      <teacher id="F9798E0ADF92D3D7" firstname="Àëåêñàíäð Âàñèëüåâè÷" lastname="Íàçàðîâ" name="Íàçàðîâ Àëåêñàíäð Âàñèëüåâè÷" short="Íàçàðîâ ÀÂ" gender="F" color="#8000FF" email="" mobile="" partner_id=""/>
-      <teacher id="B776B61A166383D7" firstname="Ìèõàèë Þðüåâè÷" lastname="Íàñèìîâ" name="Íàñèìîâ Ìèõàèë Þðüåâè÷" short="Íàñèìîâ ÌÞ" gender="F" color="#0080FF" email="" mobile="" partner_id=""/>
-      <teacher id="84B9D29C3B3D5695" firstname="Åëåíà Ìèõàéëîâíà" lastname="Íàóìîâà" name="Íàóìîâà Åëåíà Ìèõàéëîâíà" short="Íàóìîâà ÅÌ" gender="F" color="#FF8000" email="" mobile="" partner_id=""/>
-      <teacher id="55634843D7D9D9F2" firstname="Ñåðãåé Àëåêñàíäðîâè÷" lastname="Íåêëþäîâ" name="Íåêëþäîâ Ñåðãåé Àëåêñàíäðîâè÷" short="Íåêëþäîâ ÑÀ" gender="F" color="#CC6600" email="" mobile="" partner_id=""/>
-      <teacher id="88FB6509DFB26FA0" firstname="Òàòüÿíà Ëåîíèäîâíà" lastname="Íèðåíáóðã" name="Íèðåíáóðã Òàòüÿíà Ëåîíèäîâíà" short="Íèðåíáóðã ÒË" gender="F" color="#00FF80" email="" mobile="" partner_id=""/>
-      <teacher id="51C7EC6754E3CFC6" firstname="Îëåñÿ Îëåãîâíà" lastname="Îáóõîâñêàÿ" name="Îáóõîâñêàÿ Îëåñÿ Îëåãîâíà" short="Îáóõîâñêàÿ ÎÎ" gender="F" color="#FFC0C0" email="" mobile="" partner_id=""/>
-      <teacher id="233021E07B3BA665" firstname="Àðòóð Îëåãîâè÷" lastname="Îãàíäæàíÿíö" name="Îãàíäæàíÿíö Àðòóð Îëåãîâè÷" short="Îãàíäæàíÿíö ÎÀÎ" gender="F" color="#FFC000" email="" mobile="" partner_id=""/>
-      <teacher id="B4EAEA2471EDC5C5" firstname="Àíæåëà Âàñèëüåâíà" lastname="Ïàóëüñ" name="Ïàóëüñ Àíæåëà Âàñèëüåâíà" short="Ïàóëüñ ÀÂ" gender="F" color="#FFC030" email="" mobile="" partner_id=""/>
-      <teacher id="B39ADA078735F296" firstname="Îëüãà Âëàäèìèðîâíà" lastname="Ïåòðîâà" name="Ïåòðîâà Îëüãà Âëàäèìèðîâíà" short="Ïåòðîâà ÎÂ" gender="F" color="#00C0FF" email="" mobile="" partner_id=""/>
-      <teacher id="F7F130A0C587047F" firstname="Òàòüÿíà Àíàòîëüåâíà" lastname="Ïîãîðåëîâà" name="Ïîãîðåëîâà Òàòüÿíà Àíàòîëüåâíà" short="Ïîãîðåëîâà ÒÀ" gender="F" color="#C0FFFF" email="" mobile="" partner_id=""/>
-      <teacher id="EBD2C43722F6350A" firstname="Ãëåá Àëåêñàíäðîâè÷" lastname="Ïîïîâ" name="Ïîïîâ Ãëåá Àëåêñàíäðîâè÷" short="Ïîïîâ ÃÀ" gender="F" color="#C0C000" email="" mobile="" partner_id=""/>
-      <teacher id="3161ADAF14077999" firstname="Åëåíà Ãåîðãèåâíà" lastname="Ïðîöåíêî" name="Ïðîöåíêî Åëåíà Ãåîðãèåâíà" short="Ïðîöåíêî ÅÃ" gender="F" color="#80C0FF" email="" mobile="" partner_id=""/>
-      <teacher id="898F0C4AC5DCBEAD" firstname="Àëåêñàíäð Âëàäèìèðîâè÷" lastname="Ðàìàçàíîâ" name="Ðàìàçàíîâ Àëåêñàíäð Âëàäèìèðîâè÷" short="Ðàìàçàíîâ ÀÂ" gender="F" color="#00FFC0" email="" mobile="" partner_id=""/>
-      <teacher id="4C1A08081B483C26" firstname="Åëåíà Âëàäèìèðîâíà" lastname="Ðàñêèíà" name="Ðàñêèíà Åëåíà Âëàäèìèðîâíà" short="Ðàñêèíà ÅÂ" gender="F" color="#60FFC0" email="" mobile="" partner_id=""/>
-      <teacher id="9468B2F584FF374A" firstname="Îëåã Âàäèìîâè÷" lastname="Ðåí¸â" name="Ðåí¸â Îëåã Âàäèìîâè÷" short="Ðåí¸â ÎÂ" gender="F" color="#6060C0" email="" mobile="" partner_id=""/>
-      <teacher id="7D89CFDF36869E1F" firstname="Þëèÿ Àëåêñååâíà" lastname="Ðåí¸âà" name="Ðåí¸âà Þëèÿ Àëåêñååâíà" short="Ðåí¸âà ÞÀ" gender="F" color="#14C0C0" email="" mobile="" partner_id=""/>
-      <teacher id="2F09E7C7FEF3212B" firstname="Òàòüÿíà Áîðèñîâíà" lastname="Ñåâàñòüÿíîâà" name="Ñåâàñòüÿíîâà Òàòüÿíà Áîðèñîâíà" short="Ñåâàñòüÿíîâà ÒÁ" gender="F" color="#14C000" email="" mobile="" partner_id=""/>
-      <teacher id="486F055AC30CF1BF" firstname="Êîíñòàíòèí Ìàðêîâè÷" lastname="Ñåâåðèíîâ" name="Ñåâåðèíîâ Êîíñòàíòèí Ìàðêîâè÷" short="Ñåâåðèíîâ ÊÌ" gender="F" color="#14C030" email="" mobile="" partner_id=""/>
-      <teacher id="FDF1633E7761AC0F" firstname="Åëåíà Âëàäèìèðîâíà" lastname="Ñåìåíîâà" name="Ñåìåíîâà Åëåíà Âëàäèìèðîâíà" short="Ñåìåíîâà ÅÂ" gender="F" color="#00C0C8" email="" mobile="" partner_id=""/>
-      <teacher id="507070BE096496C2" firstname="Íèêîëàé Ëåîíèäîâè÷" lastname="Ñîìñ" name="Ñîìñ Íèêîëàé Ëåîíèäîâè÷" short="Ñîìñ ÍË" gender="F" color="#C014FF" email="" mobile="" partner_id=""/>
-      <teacher id="4C235B891A69906D" firstname="Âåðîíèêà Àëåêñàíäðîâíà" lastname="Òàïèíîâà" name="Òàïèíîâà Âåðîíèêà Àëåêñàíäðîâíà" short="Òàïèíîâà ÂÀ" gender="F" color="#80C014" email="" mobile="" partner_id=""/>
-      <teacher id="9F79A9BA21DD9F77" firstname="Àíòîí Àëåêñàíäðîâè÷" lastname="Òèìîôååâ" name="Òèìîôååâ Àíòîí Àëåêñàíäðîâè÷" short="Òèìîôååâ ÀÀ" gender="F" color="#0014C0" email="" mobile="" partner_id=""/>
-      <teacher id="80FFDB022028A482" firstname="Àëåêñåé Àíäðååâè÷" lastname="Òðåòüÿêîâ" name="Òðåòüÿêîâ Àëåêñåé Àíäðååâè÷" short="Òðåòüÿêîâ ÀÀ" gender="F" color="#6014C0" email="" mobile="" partner_id=""/>
-      <teacher id="C92DEAD35E2D548D" firstname="Ðóñëàí Íàäèðîâè÷" lastname="Óìåðîâ" name="Óìåðîâ Ðóñëàí Íàäèðîâè÷" short="Óìåðîâ ÐÍ" gender="F" color="#1414C0" email="" mobile="" partner_id=""/>
-      <teacher id="03BE2E1B3A62B01B" firstname="Âàñèëèñà Àëåêñàíäðîâíà" lastname="Ôåäîðîâà" name="Ôåäîðîâà Âàñèëèñà Àëåêñàíäðîâíà" short="Ôåäîðîâà ÂÀ" gender="F" color="#CC9900" email="" mobile="" partner_id=""/>
-      <teacher id="90A559750EBD0CB0" firstname="Þëèÿ Åâãåíüåâíà" lastname="Ôåäîðîâà" name="Ôåäîðîâà Þëèÿ Åâãåíüåâíà" short="Ôåäîðîâà ÞÅ" gender="F" color="#999999" email="" mobile="" partner_id=""/>
-      <teacher id="5328DAAA4E3EC678" firstname="Àëåêñàíäð Åâãåíüåâè÷" lastname="Õëîïîâ" name="Õëîïîâ Àëåêñàíäð Åâãåíüåâè÷" short="Õëîïîâ ÀÅ" gender="F" color="#99FF99" email="" mobile="" partner_id=""/>
-      <teacher id="2A3094EA52B2261E" firstname="Èãîðü Àëåêñàíäðîâè÷" lastname="Õóõðîâ" name="Õóõðîâ Èãîðü Àëåêñàíäðîâè÷" short="Õóõðîâ ÈÀ" gender="F" color="#333399" email="" mobile="" partner_id=""/>
-      <teacher id="CCE641E46FB5F148" firstname="Àëåêñàíäð Ñåðãååâè÷" lastname="×èðöîâ" name="×èðöîâ Àëåêñàíäð Ñåðãååâè÷" short="×èðöîâ ÀÑ" gender="F" color="#9966FF" email="" mobile="" partner_id=""/>
-      <teacher id="4BD8A6FF5C6D9681" firstname="Ìèõàèë Âëàäèìèðîâè÷" lastname="Øòèëüìàí" name="Øòèëüìàí Ìèõàèë Âëàäèìèðîâè÷" short="Øòèëüìàí ÌÂ" gender="F" color="#3333CC" email="" mobile="" partner_id=""/>
-      <teacher id="AD2F10037A912F68" firstname="Âèòàëèé Îëåãîâè÷" lastname="Øóðóõèí" name="Øóðóõèí Âèòàëèé Îëåãîâè÷" short="Øóðóõèí ÂÎ" gender="F" color="#666666" email="" mobile="" partner_id=""/>
-      <teacher id="53785C4E7760ADA8" firstname="Þëèÿ Ðóâèìîâíà" lastname="Þðãåíñîí" name="Þðãåíñîí Þëèÿ Ðóâèìîâíà" short="Þðãåíñîí ÞÐ" gender="F" color="#CC99FF" email="" mobile="" partner_id=""/>
-      <teacher id="C7C2AA7289BDBA3B" firstname="Èâàí Äìèòðèåâè÷" lastname="¨ëøèí" name="¨ëøèí Èâàí Äìèòðèåâè÷" short="¨ëøèí ÈÄ" gender="F" color="#CCCCFF" email="" mobile="" partner_id=""/>
-      <teacher id="82A77D0E6F3AD6C2" firstname="Àíè Ãíåëîâíà" lastname="Àíäðåàñÿí" name="Àíäðåàñÿí Àíè Ãíåëîâíà" short="ÀÀÃ" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
+      <teacher id="E8755AC1BC56DB7C" firstname="ÐÐ½Ð½Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" lastname="ÐÐ³Ð°Ñ„Ð¾Ð½Ð¾Ð²Ð°" name="ÐÐ³Ð°Ñ„Ð¾Ð½Ð¾Ð²Ð° ÐÐ½Ð½Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" short="ÐÐ³Ð°Ñ„Ð¾Ð½Ð¾Ð²Ð° AA" gender="F" color="#FF0000" email="" mobile="" partner_id=""/>
+      <teacher id="FF8EBDD718CDE08A" firstname="ÐœÐ°Ñ€Ð¸Ñ ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" lastname="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð°" name="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð° ÐœÐ°Ñ€Ð¸Ñ ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" short="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð° ÐœÐ" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
+      <teacher id="F5B818289ED81F13" firstname="ÐÐ°Ñ‚Ð°Ð»Ð¸Ñ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð°" name="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð° ÐÐ°Ñ‚Ð°Ð»Ð¸Ñ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð° ÐÐ’" gender="F" color="#0000FF" email="" mobile="" partner_id=""/>
+      <teacher id="B374A751FAC65B35" firstname="Ð®Ñ€Ð¸Ð¹ Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="ÐÐ¼Ð±Ñ€Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹" name="ÐÐ¼Ð±Ñ€Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ Ð®Ñ€Ð¸Ð¹ Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¾Ð²Ð¸Ñ‡" short="ÐÐ¼Ð±Ñ€Ð¾ÑÐ¾Ð²ÑÐºÐ¸Ð¹ Ð®Ð’" gender="F" color="#FFCCFF" email="" mobile="" partner_id=""/>
+      <teacher id="0BD8A1799414E409" firstname="Ð˜Ñ€Ð¸Ð½Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="ÐÑ€ÑˆÐ¸Ð½Ð¾Ð²Ð°" name="ÐÑ€ÑˆÐ¸Ð½Ð¾Ð²Ð° Ð˜Ñ€Ð¸Ð½Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="ÐÑ€ÑˆÐ¸Ð½Ð¾Ð²Ð° Ð˜Ð’" gender="F" color="#FFFF66" email="" mobile="" partner_id=""/>
+      <teacher id="E78FE1AAF14B942C" firstname="ÐšÐ¸Ñ€Ð° Ð˜Ð²Ð°Ð½Ð¾Ð²Ð½Ð°" lastname="Ð‘Ð°Ñ€Ð°Ð½Ð¾Ð²Ð°" name="Ð‘Ð°Ñ€Ð°Ð½Ð¾Ð²Ð° ÐšÐ¸Ñ€Ð° Ð˜Ð²Ð°Ð½Ð¾Ð²Ð½Ð°" short="Ð‘Ð°Ñ€Ð°Ð½Ð¾Ð²Ð° ÐšÐ˜" gender="F" color="#FF6666" email="" mobile="" partner_id=""/>
+      <teacher id="8B6C961A1847B207" firstname="ÐÐ°Ñ‚Ð°Ð»ÑŒÑ Ð Ð°ÑˆÐ¸Ð´Ð¾Ð²Ð½Ð°" lastname="Ð‘Ð¸ÐºÑ‚Ð°ÑˆÐµÐ²Ð°" name="Ð‘Ð¸ÐºÑ‚Ð°ÑˆÐµÐ²Ð° ÐÐ°Ñ‚Ð°Ð»ÑŒÑ Ð Ð°ÑˆÐ¸Ð´Ð¾Ð²Ð½Ð°" short="Ð‘Ð¸ÐºÑ‚Ð°ÑˆÐµÐ²Ð° ÐÐ " gender="F" color="#FFCC66" email="" mobile="" partner_id=""/>
+      <teacher id="295781F666D14DD7" firstname="ÐžÐ»ÑŒÐ³Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" lastname="Ð‘Ð¾Ð»Ð´Ñ‹Ñ€ÐµÐ²Ð°" name="Ð‘Ð¾Ð»Ð´Ñ‹Ñ€ÐµÐ²Ð° ÐžÐ»ÑŒÐ³Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" short="Ð‘Ð¾Ð»Ð´Ñ‹Ñ€ÐµÐ²Ð° ÐžÐ" gender="F" color="#14C0C0" email="" mobile="" partner_id=""/>
+      <teacher id="CCF5F662CD792FD6" firstname="ÐÐ½Ð°ÑÑ‚Ð°ÑÐ¸Ñ Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð½Ð°" lastname="Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð°" name="Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð° ÐÐ½Ð°ÑÑ‚Ð°ÑÐ¸Ñ Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð½Ð°" short="Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð° ÐÐ¡" gender="F" color="#66FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="8814EA9BC3F21365" firstname="Ð’Ð¸Ñ‚Ð°Ð»Ð¸Ð¹ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="Ð“Ð°Ð»Ð¸Ð½ÑÐºÐ¸Ð¹" name="Ð“Ð°Ð»Ð¸Ð½ÑÐºÐ¸Ð¹ Ð’Ð¸Ñ‚Ð°Ð»Ð¸Ð¹ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" short="Ð“Ð°Ð»Ð¸Ð½ÑÐºÐ¸Ð¹ Ð’Ð" gender="F" color="#009933" email="" mobile="" partner_id=""/>
+      <teacher id="EBE3335B5A456F5E" firstname="Ð˜Ñ€Ð¸Ð½Ð° Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð½Ð°" lastname="Ð“Ð½ÐµÐ´Ð¸Ð½Ð°" name="Ð“Ð½ÐµÐ´Ð¸Ð½Ð° Ð˜Ñ€Ð¸Ð½Ð° Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð½Ð°" short="Ð“Ð½ÐµÐ´Ð¸Ð½Ð° Ð˜Ð¡" gender="F" color="#DDFF97" email="" mobile="" partner_id=""/>
+      <teacher id="9E4A12772D299C92" firstname="Ð¡Ð²ÐµÑ‚Ð»Ð°Ð½Ð° Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¾Ð²Ð½Ð°" lastname="Ð“Ð¾Ñ€ÑŽÐ½Ð¾Ð²Ð°" name="Ð“Ð¾Ñ€ÑŽÐ½Ð¾Ð²Ð° Ð¡Ð²ÐµÑ‚Ð»Ð°Ð½Ð° Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¾Ð²Ð½Ð°" short="Ð“Ð¾Ñ€ÑŽÐ½Ð¾Ð²Ð° Ð¡Ð’" gender="F" color="#669900" email="" mobile="" partner_id=""/>
+      <teacher id="EE2F30326CD01CFC" firstname="ÐžÐ»ÑŒÐ³Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" lastname="Ð“Ñ€Ð¸Ð³Ð¾Ñ€ÑŒÐµÐ²Ð°" name="Ð“Ñ€Ð¸Ð³Ð¾Ñ€ÑŒÐµÐ²Ð° ÐžÐ»ÑŒÐ³Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" short="Ð“Ñ€Ð¸Ð³Ð¾Ñ€ÑŒÐµÐ²Ð° ÐžÐ" gender="F" color="#66FF66" email="" mobile="" partner_id=""/>
+      <teacher id="84D94C10FFF72DF4" firstname="Ð˜Ð½Ð½Ð° Ð”Ð°Ð²Ð¸Ð´Ð¾Ð²Ð½Ð°" lastname="Ð”Ð°ÑƒÐ³Ð°Ð²ÐµÑ‚" name="Ð”Ð°ÑƒÐ³Ð°Ð²ÐµÑ‚ Ð˜Ð½Ð½Ð° Ð”Ð°Ð²Ð¸Ð´Ð¾Ð²Ð½Ð°" short="Ð”Ð°ÑƒÐ³Ð°Ð²ÐµÑ‚ Ð˜Ð”" gender="F" color="#FFFFCC" email="" mobile="" partner_id=""/>
+      <teacher id="B9B16DBC5FC26047" firstname="Ð’Ð°Ð»ÐµÐ½Ñ‚Ð¸Ð½ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡" lastname="Ð•Ð²ÑÑ‚Ð°Ñ„ÑŒÐµÐ²" name="Ð•Ð²ÑÑ‚Ð°Ñ„ÑŒÐµÐ² Ð’Ð°Ð»ÐµÐ½Ñ‚Ð¸Ð½ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡" short="Ð•Ð²ÑÑ‚Ð°Ñ„ÑŒÐµÐ² Ð’Ð" gender="F" color="#6666FF" email="" mobile="" partner_id=""/>
+      <teacher id="0D41212C5FE9CC9C" firstname="Ð—Ð¾Ñ Ð’ÑÑ‡ÐµÑÐ»Ð°Ð²Ð¾Ð²Ð½Ð°" lastname="Ð•Ð»Ð¸ÑÐµÐµÐ²Ð°" name="Ð•Ð»Ð¸ÑÐµÐµÐ²Ð° Ð—Ð¾Ñ Ð’ÑÑ‡ÐµÑÐ»Ð°Ð²Ð¾Ð²Ð½Ð°" short="Ð•Ð»Ð¸ÑÐµÐµÐ²Ð° Ð—Ð’" gender="F" color="#993333" email="" mobile="" partner_id=""/>
+      <teacher id="B6598DD3DAEB1477" firstname="Ð•Ð»ÐµÐ½Ð° Ð’Ð°Ð»ÐµÑ€ÑŒÐµÐ²Ð½Ð°" lastname="Ð–Ð¸Ñ‚Ð½Ð°Ñ" name="Ð–Ð¸Ñ‚Ð½Ð°Ñ Ð•Ð»ÐµÐ½Ð° Ð’Ð°Ð»ÐµÑ€ÑŒÐµÐ²Ð½Ð°" short="Ð–Ð¸Ñ‚Ð½Ð°Ñ Ð•Ð’" gender="F" color="#CCFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="A521E67D8E71FE75" firstname="ÐÐ°Ñ‚Ð°Ð»ÑŒÑ Ð‘Ð¾Ñ€Ð¸ÑÐ¾Ð²Ð½Ð°" lastname="Ð—Ð°Ñ…Ð°Ñ€Ð¾Ð²Ð°" name="Ð—Ð°Ñ…Ð°Ñ€Ð¾Ð²Ð° ÐÐ°Ñ‚Ð°Ð»ÑŒÑ Ð‘Ð¾Ñ€Ð¸ÑÐ¾Ð²Ð½Ð°" short="Ð—Ð°Ñ…Ð°Ñ€Ð¾Ð²Ð° ÐÐ‘" gender="F" color="#33CC33" email="" mobile="" partner_id=""/>
+      <teacher id="D42BDF85FE450CB6" firstname="Ð¡Ð²ÐµÑ‚Ð»Ð°Ð½Ð° ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð½Ð°" lastname="Ð˜Ð²Ð°Ð½Ð¾Ð²Ð°" name="Ð˜Ð²Ð°Ð½Ð¾Ð²Ð° Ð¡Ð²ÐµÑ‚Ð»Ð°Ð½Ð° ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð½Ð°" short="Ð˜Ð²Ð°Ð½Ð¾Ð²Ð° Ð¡Ð" gender="F" color="#99FF66" email="" mobile="" partner_id=""/>
+      <teacher id="6D2E38E8B8412D10" firstname="Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° Ð®Ñ€ÑŒÐµÐ²Ð½Ð°" lastname="Ð˜Ð²Ð°Ð½Ð¾Ð²Ð°" name="Ð˜Ð²Ð°Ð½Ð¾Ð²Ð° Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° Ð®Ñ€ÑŒÐµÐ²Ð½Ð°" short="Ð˜Ð²Ð°Ð½Ð¾Ð²Ð° Ð¢Ð®" gender="F" color="#3333FF" email="" mobile="" partner_id=""/>
+      <teacher id="79D3DE5DEECA388C" firstname="ÐÐ½Ð°ÑÑ‚Ð°ÑÐ¸Ñ ÐÐ¸ÐºÐ¾Ð»Ð°ÐµÐ²Ð½Ð°" lastname="Ð˜Ð»ÑŒÐ¸Ð½Ð°" name="Ð˜Ð»ÑŒÐ¸Ð½Ð° ÐÐ½Ð°ÑÑ‚Ð°ÑÐ¸Ñ ÐÐ¸ÐºÐ¾Ð»Ð°ÐµÐ²Ð½Ð°" short="Ð˜Ð»ÑŒÐ¸Ð½Ð° ÐÐ" gender="F" color="#00CCFF" email="" mobile="" partner_id=""/>
+      <teacher id="E070DAF0452907D3" firstname="Ð­Ð»ÑŒÐ²Ð¸Ñ€Ð° Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð½Ð°" lastname="Ð˜Ð¾Ð²Ð»ÐµÐ²Ð°" name="Ð˜Ð¾Ð²Ð»ÐµÐ²Ð° Ð­Ð»ÑŒÐ²Ð¸Ñ€Ð° Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð½Ð°" short="Ð˜Ð¾Ð²Ð»ÐµÐ²Ð° Ð­Ð’" gender="F" color="#FFFFFF" email="" mobile="" partner_id=""/>
+      <teacher id="B4E69D916FA5C507" firstname="Ð•Ð»ÐµÐ½Ð° Ð“ÐµÐ½Ð½Ð°Ð´ÑŒÐµÐ²Ð½Ð°" lastname="ÐšÐ¸ÑÐ»ÑƒÑ…Ð¸Ð½Ð°" name="ÐšÐ¸ÑÐ»ÑƒÑ…Ð¸Ð½Ð° Ð•Ð»ÐµÐ½Ð° Ð“ÐµÐ½Ð½Ð°Ð´ÑŒÐµÐ²Ð½Ð°" short="ÐšÐ¸ÑÐ»ÑƒÑ…Ð¸Ð½Ð° Ð•Ð“" gender="F" color="#00CC00" email="" mobile="" partner_id=""/>
+      <teacher id="DDF352606A4764E7" firstname="Ð Ð¸Ð¼Ð¼Ð° Ð¡ÑƒÐ»Ñ‚Ð°Ð½Ð±ÐµÐºÐ¾Ð²Ð½Ð°" lastname="ÐšÐ½ÑÐ·ÐµÐ²Ð°" name="ÐšÐ½ÑÐ·ÐµÐ²Ð° Ð Ð¸Ð¼Ð¼Ð° Ð¡ÑƒÐ»Ñ‚Ð°Ð½Ð±ÐµÐºÐ¾Ð²Ð½Ð°" short="ÐšÐ½ÑÐ·ÐµÐ²Ð° Ð Ð¡" gender="F" color="#808080" email="" mobile="" partner_id=""/>
+      <teacher id="2C19DEA3BECB9157" firstname="ÐžÐ»ÑŒÐ³Ð° Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð½Ð°" lastname="ÐšÐ¾Ð·Ð»Ð¾Ð²Ð°" name="ÐšÐ¾Ð·Ð»Ð¾Ð²Ð° ÐžÐ»ÑŒÐ³Ð° Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð½Ð°" short="ÐšÐ¾Ð·Ð»Ð¾Ð²Ð° ÐžÐ¡" gender="F" color="#FFFF00" email="" mobile="" partner_id=""/>
+      <teacher id="395800A7FAE28F2B" firstname="Ð˜Ñ€Ð¸Ð½Ð° Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¾Ð²Ð½Ð°" lastname="ÐšÐ¾Ð»Ð¾Ð½Ð¸ÑÑ‚Ð¾Ð²Ð°" name="ÐšÐ¾Ð»Ð¾Ð½Ð¸ÑÑ‚Ð¾Ð²Ð° Ð˜Ñ€Ð¸Ð½Ð° Ð’Ð¸ÐºÑ‚Ð¾Ñ€Ð¾Ð²Ð½Ð°" short="ÐšÐ¾Ð»Ð¾Ð½Ð¸ÑÑ‚Ð¾Ð²Ð° Ð˜Ð’" gender="F" color="#FF00FF" email="" mobile="" partner_id=""/>
+      <teacher id="429AA20C42529DCE" firstname="Ð¡ÐµÑ€Ð³ÐµÐ¹ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡" lastname="ÐšÐ¾Ñ€Ð¾Ð»ÐµÐ²" name="ÐšÐ¾Ñ€Ð¾Ð»ÐµÐ² Ð¡ÐµÑ€Ð³ÐµÐ¹ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡" short="ÐšÐ¾Ñ€Ð¾Ð»ÐµÐ² Ð¡Ð" gender="F" color="#00FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="C5B783151D7DF019" firstname="ÐÐ°Ñ‚Ð°Ð»Ð¸Ñ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="ÐšÑ€Ð°ÑÐ½Ð¾Ð²Ð°" name="ÐšÑ€Ð°ÑÐ½Ð¾Ð²Ð° ÐÐ°Ñ‚Ð°Ð»Ð¸Ñ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="ÐšÑ€Ð°ÑÐ½Ð¾Ð²Ð° ÐÐ’" gender="F" color="#808000" email="" mobile="" partner_id=""/>
+      <teacher id="9D6E51457F18356E" firstname="ÐÑÐ»Ð»Ñ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="ÐšÑƒÐ»Ð¸ÐºÐ¾Ð²Ð°" name="ÐšÑƒÐ»Ð¸ÐºÐ¾Ð²Ð° ÐÑÐ»Ð»Ñ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="ÐšÑƒÐ»Ð¸ÐºÐ¾Ð²Ð° ÐÐ’" gender="F" color="#800080" email="" mobile="" partner_id=""/>
+      <teacher id="6C1F580AAD44B9ED" firstname="Ð•ÐºÐ°Ñ‚ÐµÑ€Ð¸Ð½Ð° ÐÐ¸ÐºÐ¾Ð»Ð°ÐµÐ²Ð½Ð°" lastname="Ð›Ð°Ð·Ð°Ñ€ÐµÐ½ÐºÐ¾" name="Ð›Ð°Ð·Ð°Ñ€ÐµÐ½ÐºÐ¾ Ð•ÐºÐ°Ñ‚ÐµÑ€Ð¸Ð½Ð° ÐÐ¸ÐºÐ¾Ð»Ð°ÐµÐ²Ð½Ð°" short="Ð›Ð°Ð·Ð°Ñ€ÐµÐ½ÐºÐ¾ Ð•Ð" gender="F" color="#008080" email="" mobile="" partner_id=""/>
+      <teacher id="B2186A9CF2FB538C" firstname="Ð›ÑŽÐ´Ð¼Ð¸Ð»Ð° ÐœÐ¸Ñ…Ð°Ð¹Ð»Ð¾Ð²Ð½Ð°" lastname="Ð›Ð°Ñ€Ð¸Ð¾Ð½Ð¾Ð²Ð°" name="Ð›Ð°Ñ€Ð¸Ð¾Ð½Ð¾Ð²Ð° Ð›ÑŽÐ´Ð¼Ð¸Ð»Ð° ÐœÐ¸Ñ…Ð°Ð¹Ð»Ð¾Ð²Ð½Ð°" short="Ð›Ð°Ñ€Ð¸Ð¾Ð½Ð¾Ð²Ð° Ð›Ðœ" gender="F" color="#FF8080" email="" mobile="" partner_id=""/>
+      <teacher id="6A97999443A32B1C" firstname="Ð•ÐºÐ°Ñ‚ÐµÑ€Ð¸Ð½Ð° ÐŸÐ°Ð²Ð»Ð¾Ð²Ð½Ð°" lastname="Ð›ÑƒÐ·Ð¸Ð½Ð°" name="Ð›ÑƒÐ·Ð¸Ð½Ð° Ð•ÐºÐ°Ñ‚ÐµÑ€Ð¸Ð½Ð° ÐŸÐ°Ð²Ð»Ð¾Ð²Ð½Ð°" short="Ð›ÑƒÐ·Ð¸Ð½Ð° Ð•ÐŸ" gender="F" color="#80FF80" email="" mobile="" partner_id=""/>
+      <teacher id="F9798E0ADF92D3D7" firstname="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð¸Ñ‡" lastname="ÐÐ°Ð·Ð°Ñ€Ð¾Ð²" name="ÐÐ°Ð·Ð°Ñ€Ð¾Ð² ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð¸Ñ‡" short="ÐÐ°Ð·Ð°Ñ€Ð¾Ð² ÐÐ’" gender="F" color="#8000FF" email="" mobile="" partner_id=""/>
+      <teacher id="B776B61A166383D7" firstname="ÐœÐ¸Ñ…Ð°Ð¸Ð» Ð®Ñ€ÑŒÐµÐ²Ð¸Ñ‡" lastname="ÐÐ°ÑÐ¸Ð¼Ð¾Ð²" name="ÐÐ°ÑÐ¸Ð¼Ð¾Ð² ÐœÐ¸Ñ…Ð°Ð¸Ð» Ð®Ñ€ÑŒÐµÐ²Ð¸Ñ‡" short="ÐÐ°ÑÐ¸Ð¼Ð¾Ð² ÐœÐ®" gender="F" color="#0080FF" email="" mobile="" partner_id=""/>
+      <teacher id="84B9D29C3B3D5695" firstname="Ð•Ð»ÐµÐ½Ð° ÐœÐ¸Ñ…Ð°Ð¹Ð»Ð¾Ð²Ð½Ð°" lastname="ÐÐ°ÑƒÐ¼Ð¾Ð²Ð°" name="ÐÐ°ÑƒÐ¼Ð¾Ð²Ð° Ð•Ð»ÐµÐ½Ð° ÐœÐ¸Ñ…Ð°Ð¹Ð»Ð¾Ð²Ð½Ð°" short="ÐÐ°ÑƒÐ¼Ð¾Ð²Ð° Ð•Ðœ" gender="F" color="#FF8000" email="" mobile="" partner_id=""/>
+      <teacher id="55634843D7D9D9F2" firstname="Ð¡ÐµÑ€Ð³ÐµÐ¹ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="ÐÐµÐºÐ»ÑŽÐ´Ð¾Ð²" name="ÐÐµÐºÐ»ÑŽÐ´Ð¾Ð² Ð¡ÐµÑ€Ð³ÐµÐ¹ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" short="ÐÐµÐºÐ»ÑŽÐ´Ð¾Ð² Ð¡Ð" gender="F" color="#CC6600" email="" mobile="" partner_id=""/>
+      <teacher id="88FB6509DFB26FA0" firstname="Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° Ð›ÐµÐ¾Ð½Ð¸Ð´Ð¾Ð²Ð½Ð°" lastname="ÐÐ¸Ñ€ÐµÐ½Ð±ÑƒÑ€Ð³" name="ÐÐ¸Ñ€ÐµÐ½Ð±ÑƒÑ€Ð³ Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° Ð›ÐµÐ¾Ð½Ð¸Ð´Ð¾Ð²Ð½Ð°" short="ÐÐ¸Ñ€ÐµÐ½Ð±ÑƒÑ€Ð³ Ð¢Ð›" gender="F" color="#00FF80" email="" mobile="" partner_id=""/>
+      <teacher id="51C7EC6754E3CFC6" firstname="ÐžÐ»ÐµÑÑ ÐžÐ»ÐµÐ³Ð¾Ð²Ð½Ð°" lastname="ÐžÐ±ÑƒÑ…Ð¾Ð²ÑÐºÐ°Ñ" name="ÐžÐ±ÑƒÑ…Ð¾Ð²ÑÐºÐ°Ñ ÐžÐ»ÐµÑÑ ÐžÐ»ÐµÐ³Ð¾Ð²Ð½Ð°" short="ÐžÐ±ÑƒÑ…Ð¾Ð²ÑÐºÐ°Ñ ÐžÐž" gender="F" color="#FFC0C0" email="" mobile="" partner_id=""/>
+      <teacher id="233021E07B3BA665" firstname="ÐÑ€Ñ‚ÑƒÑ€ ÐžÐ»ÐµÐ³Ð¾Ð²Ð¸Ñ‡" lastname="ÐžÐ³Ð°Ð½Ð´Ð¶Ð°Ð½ÑÐ½Ñ†" name="ÐžÐ³Ð°Ð½Ð´Ð¶Ð°Ð½ÑÐ½Ñ† ÐÑ€Ñ‚ÑƒÑ€ ÐžÐ»ÐµÐ³Ð¾Ð²Ð¸Ñ‡" short="ÐžÐ³Ð°Ð½Ð´Ð¶Ð°Ð½ÑÐ½Ñ† ÐžÐÐž" gender="F" color="#FFC000" email="" mobile="" partner_id=""/>
+      <teacher id="B4EAEA2471EDC5C5" firstname="ÐÐ½Ð¶ÐµÐ»Ð° Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð½Ð°" lastname="ÐŸÐ°ÑƒÐ»ÑŒÑ" name="ÐŸÐ°ÑƒÐ»ÑŒÑ ÐÐ½Ð¶ÐµÐ»Ð° Ð’Ð°ÑÐ¸Ð»ÑŒÐµÐ²Ð½Ð°" short="ÐŸÐ°ÑƒÐ»ÑŒÑ ÐÐ’" gender="F" color="#FFC030" email="" mobile="" partner_id=""/>
+      <teacher id="B39ADA078735F296" firstname="ÐžÐ»ÑŒÐ³Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="ÐŸÐµÑ‚Ñ€Ð¾Ð²Ð°" name="ÐŸÐµÑ‚Ñ€Ð¾Ð²Ð° ÐžÐ»ÑŒÐ³Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="ÐŸÐµÑ‚Ñ€Ð¾Ð²Ð° ÐžÐ’" gender="F" color="#00C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="F7F130A0C587047F" firstname="Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" lastname="ÐŸÐ¾Ð³Ð¾Ñ€ÐµÐ»Ð¾Ð²Ð°" name="ÐŸÐ¾Ð³Ð¾Ñ€ÐµÐ»Ð¾Ð²Ð° Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° ÐÐ½Ð°Ñ‚Ð¾Ð»ÑŒÐµÐ²Ð½Ð°" short="ÐŸÐ¾Ð³Ð¾Ñ€ÐµÐ»Ð¾Ð²Ð° Ð¢Ð" gender="F" color="#C0FFFF" email="" mobile="" partner_id=""/>
+      <teacher id="EBD2C43722F6350A" firstname="Ð“Ð»ÐµÐ± ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="ÐŸÐ¾Ð¿Ð¾Ð²" name="ÐŸÐ¾Ð¿Ð¾Ð² Ð“Ð»ÐµÐ± ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" short="ÐŸÐ¾Ð¿Ð¾Ð² Ð“Ð" gender="F" color="#C0C000" email="" mobile="" partner_id=""/>
+      <teacher id="3161ADAF14077999" firstname="Ð•Ð»ÐµÐ½Ð° Ð“ÐµÐ¾Ñ€Ð³Ð¸ÐµÐ²Ð½Ð°" lastname="ÐŸÑ€Ð¾Ñ†ÐµÐ½ÐºÐ¾" name="ÐŸÑ€Ð¾Ñ†ÐµÐ½ÐºÐ¾ Ð•Ð»ÐµÐ½Ð° Ð“ÐµÐ¾Ñ€Ð³Ð¸ÐµÐ²Ð½Ð°" short="ÐŸÑ€Ð¾Ñ†ÐµÐ½ÐºÐ¾ Ð•Ð“" gender="F" color="#80C0FF" email="" mobile="" partner_id=""/>
+      <teacher id="898F0C4AC5DCBEAD" firstname="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="Ð Ð°Ð¼Ð°Ð·Ð°Ð½Ð¾Ð²" name="Ð Ð°Ð¼Ð°Ð·Ð°Ð½Ð¾Ð² ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð¸Ñ‡" short="Ð Ð°Ð¼Ð°Ð·Ð°Ð½Ð¾Ð² ÐÐ’" gender="F" color="#00FFC0" email="" mobile="" partner_id=""/>
+      <teacher id="4C1A08081B483C26" firstname="Ð•Ð»ÐµÐ½Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="Ð Ð°ÑÐºÐ¸Ð½Ð°" name="Ð Ð°ÑÐºÐ¸Ð½Ð° Ð•Ð»ÐµÐ½Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="Ð Ð°ÑÐºÐ¸Ð½Ð° Ð•Ð’" gender="F" color="#60FFC0" email="" mobile="" partner_id=""/>
+      <teacher id="9468B2F584FF374A" firstname="ÐžÐ»ÐµÐ³ Ð’Ð°Ð´Ð¸Ð¼Ð¾Ð²Ð¸Ñ‡" lastname="Ð ÐµÐ½Ñ‘Ð²" name="Ð ÐµÐ½Ñ‘Ð² ÐžÐ»ÐµÐ³ Ð’Ð°Ð´Ð¸Ð¼Ð¾Ð²Ð¸Ñ‡" short="Ð ÐµÐ½Ñ‘Ð² ÐžÐ’" gender="F" color="#6060C0" email="" mobile="" partner_id=""/>
+      <teacher id="7D89CFDF36869E1F" firstname="Ð®Ð»Ð¸Ñ ÐÐ»ÐµÐºÑÐµÐµÐ²Ð½Ð°" lastname="Ð ÐµÐ½Ñ‘Ð²Ð°" name="Ð ÐµÐ½Ñ‘Ð²Ð° Ð®Ð»Ð¸Ñ ÐÐ»ÐµÐºÑÐµÐµÐ²Ð½Ð°" short="Ð ÐµÐ½Ñ‘Ð²Ð° Ð®Ð" gender="F" color="#14C0C0" email="" mobile="" partner_id=""/>
+      <teacher id="2F09E7C7FEF3212B" firstname="Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° Ð‘Ð¾Ñ€Ð¸ÑÐ¾Ð²Ð½Ð°" lastname="Ð¡ÐµÐ²Ð°ÑÑ‚ÑŒÑÐ½Ð¾Ð²Ð°" name="Ð¡ÐµÐ²Ð°ÑÑ‚ÑŒÑÐ½Ð¾Ð²Ð° Ð¢Ð°Ñ‚ÑŒÑÐ½Ð° Ð‘Ð¾Ñ€Ð¸ÑÐ¾Ð²Ð½Ð°" short="Ð¡ÐµÐ²Ð°ÑÑ‚ÑŒÑÐ½Ð¾Ð²Ð° Ð¢Ð‘" gender="F" color="#14C000" email="" mobile="" partner_id=""/>
+      <teacher id="486F055AC30CF1BF" firstname="ÐšÐ¾Ð½ÑÑ‚Ð°Ð½Ñ‚Ð¸Ð½ ÐœÐ°Ñ€ÐºÐ¾Ð²Ð¸Ñ‡" lastname="Ð¡ÐµÐ²ÐµÑ€Ð¸Ð½Ð¾Ð²" name="Ð¡ÐµÐ²ÐµÑ€Ð¸Ð½Ð¾Ð² ÐšÐ¾Ð½ÑÑ‚Ð°Ð½Ñ‚Ð¸Ð½ ÐœÐ°Ñ€ÐºÐ¾Ð²Ð¸Ñ‡" short="Ð¡ÐµÐ²ÐµÑ€Ð¸Ð½Ð¾Ð² ÐšÐœ" gender="F" color="#14C030" email="" mobile="" partner_id=""/>
+      <teacher id="FDF1633E7761AC0F" firstname="Ð•Ð»ÐµÐ½Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" lastname="Ð¡ÐµÐ¼ÐµÐ½Ð¾Ð²Ð°" name="Ð¡ÐµÐ¼ÐµÐ½Ð¾Ð²Ð° Ð•Ð»ÐµÐ½Ð° Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð½Ð°" short="Ð¡ÐµÐ¼ÐµÐ½Ð¾Ð²Ð° Ð•Ð’" gender="F" color="#00C0C8" email="" mobile="" partner_id=""/>
+      <teacher id="507070BE096496C2" firstname="ÐÐ¸ÐºÐ¾Ð»Ð°Ð¹ Ð›ÐµÐ¾Ð½Ð¸Ð´Ð¾Ð²Ð¸Ñ‡" lastname="Ð¡Ð¾Ð¼Ñ" name="Ð¡Ð¾Ð¼Ñ ÐÐ¸ÐºÐ¾Ð»Ð°Ð¹ Ð›ÐµÐ¾Ð½Ð¸Ð´Ð¾Ð²Ð¸Ñ‡" short="Ð¡Ð¾Ð¼Ñ ÐÐ›" gender="F" color="#C014FF" email="" mobile="" partner_id=""/>
+      <teacher id="4C235B891A69906D" firstname="Ð’ÐµÑ€Ð¾Ð½Ð¸ÐºÐ° ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð½Ð°" lastname="Ð¢Ð°Ð¿Ð¸Ð½Ð¾Ð²Ð°" name="Ð¢Ð°Ð¿Ð¸Ð½Ð¾Ð²Ð° Ð’ÐµÑ€Ð¾Ð½Ð¸ÐºÐ° ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð½Ð°" short="Ð¢Ð°Ð¿Ð¸Ð½Ð¾Ð²Ð° Ð’Ð" gender="F" color="#80C014" email="" mobile="" partner_id=""/>
+      <teacher id="9F79A9BA21DD9F77" firstname="ÐÐ½Ñ‚Ð¾Ð½ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="Ð¢Ð¸Ð¼Ð¾Ñ„ÐµÐµÐ²" name="Ð¢Ð¸Ð¼Ð¾Ñ„ÐµÐµÐ² ÐÐ½Ñ‚Ð¾Ð½ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" short="Ð¢Ð¸Ð¼Ð¾Ñ„ÐµÐµÐ² ÐÐ" gender="F" color="#0014C0" email="" mobile="" partner_id=""/>
+      <teacher id="80FFDB022028A482" firstname="ÐÐ»ÐµÐºÑÐµÐ¹ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡" lastname="Ð¢Ñ€ÐµÑ‚ÑŒÑÐºÐ¾Ð²" name="Ð¢Ñ€ÐµÑ‚ÑŒÑÐºÐ¾Ð² ÐÐ»ÐµÐºÑÐµÐ¹ ÐÐ½Ð´Ñ€ÐµÐµÐ²Ð¸Ñ‡" short="Ð¢Ñ€ÐµÑ‚ÑŒÑÐºÐ¾Ð² ÐÐ" gender="F" color="#6014C0" email="" mobile="" partner_id=""/>
+      <teacher id="C92DEAD35E2D548D" firstname="Ð ÑƒÑÐ»Ð°Ð½ ÐÐ°Ð´Ð¸Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="Ð£Ð¼ÐµÑ€Ð¾Ð²" name="Ð£Ð¼ÐµÑ€Ð¾Ð² Ð ÑƒÑÐ»Ð°Ð½ ÐÐ°Ð´Ð¸Ñ€Ð¾Ð²Ð¸Ñ‡" short="Ð£Ð¼ÐµÑ€Ð¾Ð² Ð Ð" gender="F" color="#1414C0" email="" mobile="" partner_id=""/>
+      <teacher id="03BE2E1B3A62B01B" firstname="Ð’Ð°ÑÐ¸Ð»Ð¸ÑÐ° ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð½Ð°" lastname="Ð¤ÐµÐ´Ð¾Ñ€Ð¾Ð²Ð°" name="Ð¤ÐµÐ´Ð¾Ñ€Ð¾Ð²Ð° Ð’Ð°ÑÐ¸Ð»Ð¸ÑÐ° ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð½Ð°" short="Ð¤ÐµÐ´Ð¾Ñ€Ð¾Ð²Ð° Ð’Ð" gender="F" color="#CC9900" email="" mobile="" partner_id=""/>
+      <teacher id="90A559750EBD0CB0" firstname="Ð®Ð»Ð¸Ñ Ð•Ð²Ð³ÐµÐ½ÑŒÐµÐ²Ð½Ð°" lastname="Ð¤ÐµÐ´Ð¾Ñ€Ð¾Ð²Ð°" name="Ð¤ÐµÐ´Ð¾Ñ€Ð¾Ð²Ð° Ð®Ð»Ð¸Ñ Ð•Ð²Ð³ÐµÐ½ÑŒÐµÐ²Ð½Ð°" short="Ð¤ÐµÐ´Ð¾Ñ€Ð¾Ð²Ð° Ð®Ð•" gender="F" color="#999999" email="" mobile="" partner_id=""/>
+      <teacher id="5328DAAA4E3EC678" firstname="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð•Ð²Ð³ÐµÐ½ÑŒÐµÐ²Ð¸Ñ‡" lastname="Ð¥Ð»Ð¾Ð¿Ð¾Ð²" name="Ð¥Ð»Ð¾Ð¿Ð¾Ð² ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð•Ð²Ð³ÐµÐ½ÑŒÐµÐ²Ð¸Ñ‡" short="Ð¥Ð»Ð¾Ð¿Ð¾Ð² ÐÐ•" gender="F" color="#99FF99" email="" mobile="" partner_id=""/>
+      <teacher id="2A3094EA52B2261E" firstname="Ð˜Ð³Ð¾Ñ€ÑŒ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="Ð¥ÑƒÑ…Ñ€Ð¾Ð²" name="Ð¥ÑƒÑ…Ñ€Ð¾Ð² Ð˜Ð³Ð¾Ñ€ÑŒ ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€Ð¾Ð²Ð¸Ñ‡" short="Ð¥ÑƒÑ…Ñ€Ð¾Ð² Ð˜Ð" gender="F" color="#333399" email="" mobile="" partner_id=""/>
+      <teacher id="CCE641E46FB5F148" firstname="ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð¸Ñ‡" lastname="Ð§Ð¸Ñ€Ñ†Ð¾Ð²" name="Ð§Ð¸Ñ€Ñ†Ð¾Ð² ÐÐ»ÐµÐºÑÐ°Ð½Ð´Ñ€ Ð¡ÐµÑ€Ð³ÐµÐµÐ²Ð¸Ñ‡" short="Ð§Ð¸Ñ€Ñ†Ð¾Ð² ÐÐ¡" gender="F" color="#9966FF" email="" mobile="" partner_id=""/>
+      <teacher id="4BD8A6FF5C6D9681" firstname="ÐœÐ¸Ñ…Ð°Ð¸Ð» Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð¸Ñ‡" lastname="Ð¨Ñ‚Ð¸Ð»ÑŒÐ¼Ð°Ð½" name="Ð¨Ñ‚Ð¸Ð»ÑŒÐ¼Ð°Ð½ ÐœÐ¸Ñ…Ð°Ð¸Ð» Ð’Ð»Ð°Ð´Ð¸Ð¼Ð¸Ñ€Ð¾Ð²Ð¸Ñ‡" short="Ð¨Ñ‚Ð¸Ð»ÑŒÐ¼Ð°Ð½ ÐœÐ’" gender="F" color="#3333CC" email="" mobile="" partner_id=""/>
+      <teacher id="AD2F10037A912F68" firstname="Ð’Ð¸Ñ‚Ð°Ð»Ð¸Ð¹ ÐžÐ»ÐµÐ³Ð¾Ð²Ð¸Ñ‡" lastname="Ð¨ÑƒÑ€ÑƒÑ…Ð¸Ð½" name="Ð¨ÑƒÑ€ÑƒÑ…Ð¸Ð½ Ð’Ð¸Ñ‚Ð°Ð»Ð¸Ð¹ ÐžÐ»ÐµÐ³Ð¾Ð²Ð¸Ñ‡" short="Ð¨ÑƒÑ€ÑƒÑ…Ð¸Ð½ Ð’Ðž" gender="F" color="#666666" email="" mobile="" partner_id=""/>
+      <teacher id="53785C4E7760ADA8" firstname="Ð®Ð»Ð¸Ñ Ð ÑƒÐ²Ð¸Ð¼Ð¾Ð²Ð½Ð°" lastname="Ð®Ñ€Ð³ÐµÐ½ÑÐ¾Ð½" name="Ð®Ñ€Ð³ÐµÐ½ÑÐ¾Ð½ Ð®Ð»Ð¸Ñ Ð ÑƒÐ²Ð¸Ð¼Ð¾Ð²Ð½Ð°" short="Ð®Ñ€Ð³ÐµÐ½ÑÐ¾Ð½ Ð®Ð " gender="F" color="#CC99FF" email="" mobile="" partner_id=""/>
+      <teacher id="C7C2AA7289BDBA3B" firstname="Ð˜Ð²Ð°Ð½ Ð”Ð¼Ð¸Ñ‚Ñ€Ð¸ÐµÐ²Ð¸Ñ‡" lastname="ÐÐ»ÑˆÐ¸Ð½" name="ÐÐ»ÑˆÐ¸Ð½ Ð˜Ð²Ð°Ð½ Ð”Ð¼Ð¸Ñ‚Ñ€Ð¸ÐµÐ²Ð¸Ñ‡" short="ÐÐ»ÑˆÐ¸Ð½ Ð˜Ð”" gender="F" color="#CCCCFF" email="" mobile="" partner_id=""/>
+      <teacher id="82A77D0E6F3AD6C2" firstname="ÐÐ½Ð¸ Ð“Ð½ÐµÐ»Ð¾Ð²Ð½Ð°" lastname="ÐÐ½Ð´Ñ€ÐµÐ°ÑÑÐ½" name="ÐÐ½Ð´Ñ€ÐµÐ°ÑÑÐ½ ÐÐ½Ð¸ Ð“Ð½ÐµÐ»Ð¾Ð²Ð½Ð°" short="ÐÐÐ“" gender="F" color="#00FF00" email="" mobile="" partner_id=""/>
    </teachers>
    <classrooms options="canadd,export:silent" columns="id,name,short,capacity,partner_id">
-      <classroom id="6F573E1408274027" name="Ñ-111" short="Ñ111" capacity="*" partner_id=""/>
-      <classroom id="496D89D9EA49E15D" name="Ñ-56" short="Ñ56" capacity="*" partner_id=""/>
-      <classroom id="EA2E95C32296763D" name="Ñ-100" short="Ñ100" capacity="*" partner_id=""/>
-      <classroom id="989B28FE0C73301C" name="Ñ-ôèçëàá10" short="ôë10" capacity="*" partner_id=""/>
-      <classroom id="E7C28FADC152D00A" name="Ñ-ôèçëàá11" short="ôë11" capacity="*" partner_id=""/>
-      <classroom id="12D49D5903376923" name="Ø-ÎÑ1" short="ÎÑ1" capacity="*" partner_id=""/>
-      <classroom id="E3CC4581C9722AFE" name="Ø-ÎÑ2" short="ÎÑ2" capacity="*" partner_id=""/>
-      <classroom id="5F98D3A22AA2F481" name="Ø-ÎÑ3" short="ÎÑ3" capacity="*" partner_id=""/>
-      <classroom id="1482BF94B96FFE8A" name="Ø-Àêòîâûé çàë" short="Ø-ÀêòÇ" capacity="*" partner_id=""/>
-      <classroom id="8B07C4E6C688D569" name="Ñ-Àêòîâûé çàë" short="Ñ-ÀêòÇ" capacity="*" partner_id=""/>
-      <classroom id="906CCC1009135E03" name="Ø-Ôèç çàë" short="Ø-ÔèçÇ" capacity="*" partner_id=""/>
-      <classroom id="01775AD45C9C595E" name="Ø-220" short="Ø220" capacity="*" partner_id=""/>
-      <classroom id="955AF8FD3729C49A" name="Ø-221" short="Ø221" capacity="*" partner_id=""/>
-      <classroom id="6E31AA8B50B57CD7" name="Ñ-200" short="Ñ200" capacity="*" partner_id=""/>
-      <classroom id="6C79ED2228F62253" name="Ñ-300" short="Ñ300" capacity="*" partner_id=""/>
-      <classroom id="2CBA55AF9CBDCE2A" name="Ñ-400" short="Ñ400" capacity="*" partner_id=""/>
-      <classroom id="95FA86E90FCC9E89" name="Ñ-201" short="Ñ201" capacity="*" partner_id=""/>
-      <classroom id="3159D0215BB23AD9" name="Ñ-202" short="Ñ202" capacity="*" partner_id=""/>
-      <classroom id="328BC8C82D20A4CC" name="Ñ-207" short="Ñ207" capacity="*" partner_id=""/>
-      <classroom id="D4BE8E316C4F123C" name="Ñ-208" short="Ñ208" capacity="*" partner_id=""/>
-      <classroom id="F5F824DAB3637E2C" name="Ñ-209" short="Ñ209" capacity="*" partner_id=""/>
-      <classroom id="15C97E50D23D201D" name="Ñ-301" short="Ñ301" capacity="*" partner_id=""/>
-      <classroom id="2646A77E6BFED4AA" name="Ñ-302" short="Ñ302" capacity="*" partner_id=""/>
-      <classroom id="496F8FAA70F3409D" name="Ñ-303" short="Ñ303" capacity="*" partner_id=""/>
-      <classroom id="1A528BA824F850AE" name="Ñ-306" short="Ñ306" capacity="*" partner_id=""/>
-      <classroom id="E6D128BE6395F026" name="Ñ-307" short="Ñ307" capacity="*" partner_id=""/>
-      <classroom id="77A29E15D3BA5FD5" name="Ñ-308" short="Ñ308" capacity="*" partner_id=""/>
-      <classroom id="72C579851D8EFB91" name="Ñ-401" short="Ñ401" capacity="*" partner_id=""/>
-      <classroom id="468FCC4244F82B58" name="Ñ-402" short="Ñ402" capacity="*" partner_id=""/>
-      <classroom id="7826BB06C6EBB29F" name="Ñ-403" short="Ñ403" capacity="*" partner_id=""/>
-      <classroom id="FB741B7F1078A162" name="Ø-303" short="Ø303" capacity="*" partner_id=""/>
-      <classroom id="7558EF01EFC11EDE" name="Ø-304" short="Ø304" capacity="*" partner_id=""/>
-      <classroom id="D0E8A252F3B84EE2" name="Ø-307" short="Ø307" capacity="*" partner_id=""/>
-      <classroom id="38E176F196F80E05" name="Ø-308" short="Ø308" capacity="*" partner_id=""/>
-      <classroom id="1DBFB224150E04AC" name="Ø-309" short="Ø309" capacity="*" partner_id=""/>
-      <classroom id="9FEC3D8CEABB816D" name="Ø-311" short="Ø311" capacity="*" partner_id=""/>
-      <classroom id="9C0C0AC54EDAD70D" name="Ø-312" short="Ø312" capacity="*" partner_id=""/>
-      <classroom id="90CAD77CA39148A5" name="Ø-314" short="Ø314" capacity="*" partner_id=""/>
-      <classroom id="A1D33923E48A61D2" name="Ø-315" short="Ø315" capacity="*" partner_id=""/>
-      <classroom id="42145D724461062C" name="Ø-316" short="Ø316" capacity="*" partner_id=""/>
-      <classroom id="E47F61AA4BB08C83" name="Ø-403" short="Ø403" capacity="*" partner_id=""/>
-      <classroom id="388C967D836BEB9B" name="Ø-407" short="Ø407" capacity="*" partner_id=""/>
-      <classroom id="E556A3190D1C8236" name="Ø-408" short="Ø408" capacity="*" partner_id=""/>
-      <classroom id="ECF8E78F959DB43A" name="Ø-409" short="Ø409" capacity="*" partner_id=""/>
-      <classroom id="D64CE284F953ADDC" name="Ø-411" short="Ø411" capacity="*" partner_id=""/>
+      <classroom id="6F573E1408274027" name="Ð¡-111" short="Ð¡111" capacity="*" partner_id=""/>
+      <classroom id="496D89D9EA49E15D" name="Ð¡-56" short="Ð¡56" capacity="*" partner_id=""/>
+      <classroom id="EA2E95C32296763D" name="Ð¡-100" short="Ð¡100" capacity="*" partner_id=""/>
+      <classroom id="989B28FE0C73301C" name="Ð¡-Ñ„Ð¸Ð·Ð»Ð°Ð±10" short="Ñ„Ð»10" capacity="*" partner_id=""/>
+      <classroom id="E7C28FADC152D00A" name="Ð¡-Ñ„Ð¸Ð·Ð»Ð°Ð±11" short="Ñ„Ð»11" capacity="*" partner_id=""/>
+      <classroom id="12D49D5903376923" name="Ð¨-ÐžÐ¡1" short="ÐžÐ¡1" capacity="*" partner_id=""/>
+      <classroom id="E3CC4581C9722AFE" name="Ð¨-ÐžÐ¡2" short="ÐžÐ¡2" capacity="*" partner_id=""/>
+      <classroom id="5F98D3A22AA2F481" name="Ð¨-ÐžÐ¡3" short="ÐžÐ¡3" capacity="*" partner_id=""/>
+      <classroom id="1482BF94B96FFE8A" name="Ð¨-ÐÐºÑ‚Ð¾Ð²Ñ‹Ð¹ Ð·Ð°Ð»" short="Ð¨-ÐÐºÑ‚Ð—" capacity="*" partner_id=""/>
+      <classroom id="8B07C4E6C688D569" name="Ð¡-ÐÐºÑ‚Ð¾Ð²Ñ‹Ð¹ Ð·Ð°Ð»" short="Ð¡-ÐÐºÑ‚Ð—" capacity="*" partner_id=""/>
+      <classroom id="906CCC1009135E03" name="Ð¨-Ð¤Ð¸Ð· Ð·Ð°Ð»" short="Ð¨-Ð¤Ð¸Ð·Ð—" capacity="*" partner_id=""/>
+      <classroom id="01775AD45C9C595E" name="Ð¨-220" short="Ð¨220" capacity="*" partner_id=""/>
+      <classroom id="955AF8FD3729C49A" name="Ð¨-221" short="Ð¨221" capacity="*" partner_id=""/>
+      <classroom id="6E31AA8B50B57CD7" name="Ð¡-200" short="Ð¡200" capacity="*" partner_id=""/>
+      <classroom id="6C79ED2228F62253" name="Ð¡-300" short="Ð¡300" capacity="*" partner_id=""/>
+      <classroom id="2CBA55AF9CBDCE2A" name="Ð¡-400" short="Ð¡400" capacity="*" partner_id=""/>
+      <classroom id="95FA86E90FCC9E89" name="Ð¡-201" short="Ð¡201" capacity="*" partner_id=""/>
+      <classroom id="3159D0215BB23AD9" name="Ð¡-202" short="Ð¡202" capacity="*" partner_id=""/>
+      <classroom id="328BC8C82D20A4CC" name="Ð¡-207" short="Ð¡207" capacity="*" partner_id=""/>
+      <classroom id="D4BE8E316C4F123C" name="Ð¡-208" short="Ð¡208" capacity="*" partner_id=""/>
+      <classroom id="F5F824DAB3637E2C" name="Ð¡-209" short="Ð¡209" capacity="*" partner_id=""/>
+      <classroom id="15C97E50D23D201D" name="Ð¡-301" short="Ð¡301" capacity="*" partner_id=""/>
+      <classroom id="2646A77E6BFED4AA" name="Ð¡-302" short="Ð¡302" capacity="*" partner_id=""/>
+      <classroom id="496F8FAA70F3409D" name="Ð¡-303" short="Ð¡303" capacity="*" partner_id=""/>
+      <classroom id="1A528BA824F850AE" name="Ð¡-306" short="Ð¡306" capacity="*" partner_id=""/>
+      <classroom id="E6D128BE6395F026" name="Ð¡-307" short="Ð¡307" capacity="*" partner_id=""/>
+      <classroom id="77A29E15D3BA5FD5" name="Ð¡-308" short="Ð¡308" capacity="*" partner_id=""/>
+      <classroom id="72C579851D8EFB91" name="Ð¡-401" short="Ð¡401" capacity="*" partner_id=""/>
+      <classroom id="468FCC4244F82B58" name="Ð¡-402" short="Ð¡402" capacity="*" partner_id=""/>
+      <classroom id="7826BB06C6EBB29F" name="Ð¡-403" short="Ð¡403" capacity="*" partner_id=""/>
+      <classroom id="FB741B7F1078A162" name="Ð¨-303" short="Ð¨303" capacity="*" partner_id=""/>
+      <classroom id="7558EF01EFC11EDE" name="Ð¨-304" short="Ð¨304" capacity="*" partner_id=""/>
+      <classroom id="D0E8A252F3B84EE2" name="Ð¨-307" short="Ð¨307" capacity="*" partner_id=""/>
+      <classroom id="38E176F196F80E05" name="Ð¨-308" short="Ð¨308" capacity="*" partner_id=""/>
+      <classroom id="1DBFB224150E04AC" name="Ð¨-309" short="Ð¨309" capacity="*" partner_id=""/>
+      <classroom id="9FEC3D8CEABB816D" name="Ð¨-311" short="Ð¨311" capacity="*" partner_id=""/>
+      <classroom id="9C0C0AC54EDAD70D" name="Ð¨-312" short="Ð¨312" capacity="*" partner_id=""/>
+      <classroom id="90CAD77CA39148A5" name="Ð¨-314" short="Ð¨314" capacity="*" partner_id=""/>
+      <classroom id="A1D33923E48A61D2" name="Ð¨-315" short="Ð¨315" capacity="*" partner_id=""/>
+      <classroom id="42145D724461062C" name="Ð¨-316" short="Ð¨316" capacity="*" partner_id=""/>
+      <classroom id="E47F61AA4BB08C83" name="Ð¨-403" short="Ð¨403" capacity="*" partner_id=""/>
+      <classroom id="388C967D836BEB9B" name="Ð¨-407" short="Ð¨407" capacity="*" partner_id=""/>
+      <classroom id="E556A3190D1C8236" name="Ð¨-408" short="Ð¨408" capacity="*" partner_id=""/>
+      <classroom id="ECF8E78F959DB43A" name="Ð¨-409" short="Ð¨409" capacity="*" partner_id=""/>
+      <classroom id="D64CE284F953ADDC" name="Ð¨-411" short="Ð¨411" capacity="*" partner_id=""/>
    </classrooms>
    <grades options="canadd,export:silent" columns="grade,name,short">
       <grade name="Grade 1" short="G 1" grade="1"/>
@@ -189,12 +189,12 @@
       <grade name="Grade 20" short="G 20" grade="20"/>
    </grades>
    <classes options="canadd,export:silent" columns="id,name,short,classroomids,teacherid,grade,partner_id">
-      <class id="E06839D1C346DD93" name="5-à" short="5-à" teacherid="" classroomids="" grade="5" partner_id=""/>
-      <class id="10488A0D29B03528" name="5-á" short="5-á" teacherid="" classroomids="" grade="5" partner_id=""/>
-      <class id="F3246E5D6409C1CE" name="6-à" short="6-à" teacherid="" classroomids="" grade="6" partner_id=""/>
-      <class id="9A5AFE9EF73732AA" name="6-á" short="6-á" teacherid="" classroomids="" grade="6" partner_id=""/>
-      <class id="DCBF6EB07D1CC628" name="7-à" short="7-à" teacherid="" classroomids="" grade="7" partner_id=""/>
-      <class id="BF9A26A6D04392C2" name="7-á" short="7-á" teacherid="" classroomids="" grade="7" partner_id=""/>
+      <class id="E06839D1C346DD93" name="5-Ð°" short="5-Ð°" teacherid="" classroomids="" grade="5" partner_id=""/>
+      <class id="10488A0D29B03528" name="5-Ð±" short="5-Ð±" teacherid="" classroomids="" grade="5" partner_id=""/>
+      <class id="F3246E5D6409C1CE" name="6-Ð°" short="6-Ð°" teacherid="" classroomids="" grade="6" partner_id=""/>
+      <class id="9A5AFE9EF73732AA" name="6-Ð±" short="6-Ð±" teacherid="" classroomids="" grade="6" partner_id=""/>
+      <class id="DCBF6EB07D1CC628" name="7-Ð°" short="7-Ð°" teacherid="" classroomids="" grade="7" partner_id=""/>
+      <class id="BF9A26A6D04392C2" name="7-Ð±" short="7-Ð±" teacherid="" classroomids="" grade="7" partner_id=""/>
       <class id="C9B2D368E640C4FD" name="8-1" short="8-1" teacherid="" classroomids="" grade="8" partner_id=""/>
       <class id="1BC2E65ABBBD4684" name="8-2" short="8-2" teacherid="" classroomids="" grade="8" partner_id=""/>
       <class id="8F23B6E97D96A8FD" name="8-3" short="8-3" teacherid="" classroomids="" grade="8" partner_id=""/>
@@ -218,131 +218,131 @@
    </classes>
    <groups options="canadd,export:silent" columns="id,classid,name,entireclass,divisiontag,studentcount,studentids">
       <group id="1F10BBFDB6A647A7" name="Entire class" classid="E06839D1C346DD93" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="76D235ADEB293360" name="Àíãë 1" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="1B8DE13A1EBE4991" name="Àíãë 2" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="E044BE696EC9DD46" name="Ìàò/Òåõ 1" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="FA26C1DBD9A3483A" name="Ìàò/Òåõ 2" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="76D235ADEB293360" name="ÐÐ½Ð³Ð» 1" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="1B8DE13A1EBE4991" name="ÐÐ½Ð³Ð» 2" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="E044BE696EC9DD46" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 1" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FA26C1DBD9A3483A" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 2" classid="E06839D1C346DD93" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="AB72053AEE52DD90" name="Entire class" classid="10488A0D29B03528" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="788A34531C3FCC02" name="Àíãë 1" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="8FC1B8669DAFEF31" name="Àíãë 2" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="2077FF7887E6EE09" name="Ìàò/Òåõ 1" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="2CB16768488AA375" name="Ìàò/Òåõ 2" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="788A34531C3FCC02" name="ÐÐ½Ð³Ð» 1" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="8FC1B8669DAFEF31" name="ÐÐ½Ð³Ð» 2" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2077FF7887E6EE09" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 1" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="2CB16768488AA375" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 2" classid="10488A0D29B03528" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="0B212A70EEB91C5C" name="Entire class" classid="F3246E5D6409C1CE" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="8A9595C15AA72BCD" name="Àíãë 1" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="9A2B5C58E41A12B9" name="Àíãë 2" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="626663DE40E9FCAD" name="Ìàò/Òåõ 1" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="1A9382E10D2E0177" name="Ìàò/Òåõ 2" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8A9595C15AA72BCD" name="ÐÐ½Ð³Ð» 1" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9A2B5C58E41A12B9" name="ÐÐ½Ð³Ð» 2" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="626663DE40E9FCAD" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 1" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="1A9382E10D2E0177" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 2" classid="F3246E5D6409C1CE" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="02E1D1C53DE4F814" name="Entire class" classid="9A5AFE9EF73732AA" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="C65306CE83E81176" name="Àíãë 1" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="3438FECF91B41BAA" name="Àíãë 2" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="A1FE3417BF59A21A" name="Ìàò/Òåõ 1" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="16AADD8120623ECB" name="Ìàò/Òåõ 2" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C65306CE83E81176" name="ÐÐ½Ð³Ð» 1" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3438FECF91B41BAA" name="ÐÐ½Ð³Ð» 2" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A1FE3417BF59A21A" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 1" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="16AADD8120623ECB" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 2" classid="9A5AFE9EF73732AA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="BBD0222D5F47962B" name="Entire class" classid="DCBF6EB07D1CC628" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="5EAAA3FC0ECD515C" name="Àíãë 1" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="7AFB241FFD1899C0" name="Àíãë 2" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="5BA671484FB76A8D" name="Ìàò/Òåõ 1" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="DC1F14AEDC511B89" name="Ìàò/Òåõ 2" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5EAAA3FC0ECD515C" name="ÐÐ½Ð³Ð» 1" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="7AFB241FFD1899C0" name="ÐÐ½Ð³Ð» 2" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="5BA671484FB76A8D" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 1" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="DC1F14AEDC511B89" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 2" classid="DCBF6EB07D1CC628" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="C8D03ABF98BAEFB4" name="Entire class" classid="BF9A26A6D04392C2" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="179122963F323CC0" name="Àíãë 1" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="C6C5454790EFBE50" name="Àíãë 2" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="93320164B398697D" name="Ìàò/Òåõ 1" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="58E55B87EC2856A8" name="Ìàò/Òåõ 2" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="179122963F323CC0" name="ÐÐ½Ð³Ð» 1" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C6C5454790EFBE50" name="ÐÐ½Ð³Ð» 2" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="93320164B398697D" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 1" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="58E55B87EC2856A8" name="ÐœÐ°Ñ‚/Ð¢ÐµÑ… 2" classid="BF9A26A6D04392C2" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="1DE87BA4B2D48B62" name="Entire class" classid="C9B2D368E640C4FD" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="85CF1C92D7D6F1FA" name="Àíãë 1" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="1B1399A12B115167" name="Àíãë 2" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="3F0A9D83FBEDD137" name="Èíô 1" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="3D68E724E93040B5" name="Èíô 2" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="85CF1C92D7D6F1FA" name="ÐÐ½Ð³Ð» 1" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="1B1399A12B115167" name="ÐÐ½Ð³Ð» 2" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3F0A9D83FBEDD137" name="Ð˜Ð½Ñ„ 1" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="3D68E724E93040B5" name="Ð˜Ð½Ñ„ 2" classid="C9B2D368E640C4FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="3F476B7D0F08EC3F" name="Entire class" classid="1BC2E65ABBBD4684" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="8C992100F37F0BA8" name="Àíãë 1" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="98C81A82D250C6EA" name="Àíãë 2" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="0352E73A293D41B5" name="Èíô 1" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="F01DA18929217BCE" name="Èíô 2" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="8C992100F37F0BA8" name="ÐÐ½Ð³Ð» 1" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="98C81A82D250C6EA" name="ÐÐ½Ð³Ð» 2" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="0352E73A293D41B5" name="Ð˜Ð½Ñ„ 1" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F01DA18929217BCE" name="Ð˜Ð½Ñ„ 2" classid="1BC2E65ABBBD4684" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="09F508419AF91B75" name="Entire class" classid="8F23B6E97D96A8FD" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="94601DBAE6E97912" name="Àíãë 1" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="E73622FCC9E1415D" name="Àíãë 2" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="9A98E55713FFEE3F" name="Èíô 1" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="964B44EDDF3A2238" name="Èíô 2" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="94601DBAE6E97912" name="ÐÐ½Ð³Ð» 1" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="E73622FCC9E1415D" name="ÐÐ½Ð³Ð» 2" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9A98E55713FFEE3F" name="Ð˜Ð½Ñ„ 1" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="964B44EDDF3A2238" name="Ð˜Ð½Ñ„ 2" classid="8F23B6E97D96A8FD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="B1CD382D0D953BD2" name="Entire class" classid="5F10BDB4B4D7D565" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="C06179AEEE35DC13" name="Àíãë 1" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="559A741B92C62DE2" name="Àíãë 2" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="07E5FD2417DF6092" name="Èíô 1" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="CC79F71B40E40D7B" name="Èíô 2" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C06179AEEE35DC13" name="ÐÐ½Ð³Ð» 1" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="559A741B92C62DE2" name="ÐÐ½Ð³Ð» 2" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="07E5FD2417DF6092" name="Ð˜Ð½Ñ„ 1" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="CC79F71B40E40D7B" name="Ð˜Ð½Ñ„ 2" classid="5F10BDB4B4D7D565" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="C397CB6BAD993BCF" name="Entire class" classid="0421921F1F79DD82" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="ACF55DA748978227" name="Àíãë 1" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="DD753DE23DD39447" name="Àíãë 2" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="D7A9306C248E0116" name="Èíô 1" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="376E341DC89BA06E" name="Èíô 2" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="ACF55DA748978227" name="ÐÐ½Ð³Ð» 1" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DD753DE23DD39447" name="ÐÐ½Ð³Ð» 2" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D7A9306C248E0116" name="Ð˜Ð½Ñ„ 1" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="376E341DC89BA06E" name="Ð˜Ð½Ñ„ 2" classid="0421921F1F79DD82" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="27F460054B9BC5A9" name="Entire class" classid="97497BAD989DD21B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="A863162EC8B23797" name="Àíãë 1" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="76B769303032CDB9" name="Àíãë 2" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="4E91AB5DDD5FE426" name="Èíô 1" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="C92D8BAF20615611" name="Èíô 2" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A863162EC8B23797" name="ÐÐ½Ð³Ð» 1" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="76B769303032CDB9" name="ÐÐ½Ð³Ð» 2" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4E91AB5DDD5FE426" name="Ð˜Ð½Ñ„ 1" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="C92D8BAF20615611" name="Ð˜Ð½Ñ„ 2" classid="97497BAD989DD21B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="4807C8AA5FBE5C2C" name="Entire class" classid="FB97D473F428C8BF" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="AEF8ED8B8850022E" name="Àíãë 1" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="DE3BFFE7540929B5" name="Àíãë 2" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="51F8E95113774654" name="Èíô 1" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="B2A5C528733A1254" name="Èíô 2" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="AEF8ED8B8850022E" name="ÐÐ½Ð³Ð» 1" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="DE3BFFE7540929B5" name="ÐÐ½Ð³Ð» 2" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="51F8E95113774654" name="Ð˜Ð½Ñ„ 1" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="B2A5C528733A1254" name="Ð˜Ð½Ñ„ 2" classid="FB97D473F428C8BF" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="999EBDCC04D27F5C" name="Entire class" classid="B94BAD5B15B42CF1" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="EBF950F5386A7390" name="Àíãë 1" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="1D0BAC4F56329A80" name="Àíãë 2" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="C08BE52C46C08840" name="Èíô 1" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="E4180A6FFA30552B" name="Èíô 2" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="EBF950F5386A7390" name="ÐÐ½Ð³Ð» 1" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="1D0BAC4F56329A80" name="ÐÐ½Ð³Ð» 2" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="C08BE52C46C08840" name="Ð˜Ð½Ñ„ 1" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E4180A6FFA30552B" name="Ð˜Ð½Ñ„ 2" classid="B94BAD5B15B42CF1" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="7416B5E4F352F452" name="Entire class" classid="50E1056D97BC107B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="419C81731BBB3ED8" name="Àíãë 1" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="9D2998C6A217FFFC" name="Àíãë 2" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="2AC1F743771326F3" name="Èíô 1" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="4016B1BA96DF09BF" name="Èíô 2" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="419C81731BBB3ED8" name="ÐÐ½Ð³Ð» 1" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="9D2998C6A217FFFC" name="ÐÐ½Ð³Ð» 2" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="2AC1F743771326F3" name="Ð˜Ð½Ñ„ 1" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="4016B1BA96DF09BF" name="Ð˜Ð½Ñ„ 2" classid="50E1056D97BC107B" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="446B327F3F6440F3" name="Entire class" classid="1ACE7AF74783F613" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="9FF7C6F2075C678F" name="Àíãë 1" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="F96692E54DC471DD" name="Àíãë 2" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="A2615A0FD540C10C" name="ÔèçË 1" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="F5BEC16C406C549E" name="ÔèçË 2" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="9FF7C6F2075C678F" name="ÐÐ½Ð³Ð» 1" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="F96692E54DC471DD" name="ÐÐ½Ð³Ð» 2" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="A2615A0FD540C10C" name="Ð¤Ð¸Ð·Ð› 1" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="F5BEC16C406C549E" name="Ð¤Ð¸Ð·Ð› 2" classid="1ACE7AF74783F613" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="3A0C80CA17D330B4" name="Entire class" classid="559F3D0D3337E57D" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="18B7765AB9B83986" name="Àíãë 1" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="987506B8F73BEB06" name="Àíãë 2" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="22E44FDE480A4F5F" name="ÔèçË 1" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="E0BBA97B30EBB06E" name="ÔèçË 2" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="18B7765AB9B83986" name="ÐÐ½Ð³Ð» 1" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="987506B8F73BEB06" name="ÐÐ½Ð³Ð» 2" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="22E44FDE480A4F5F" name="Ð¤Ð¸Ð·Ð› 1" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E0BBA97B30EBB06E" name="Ð¤Ð¸Ð·Ð› 2" classid="559F3D0D3337E57D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="163DBDBE2F9ACF56" name="Entire class" classid="E0845F9C59BB47AD" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="BBBBF32F01191D24" name="Àíãë 1" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="3C06D6F4C6ABF326" name="Àíãë 2" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="107E8995BD8616B0" name="ÔèçË 1" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="A84FC29799D27FFA" name="ÔèçË 2" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="BBBBF32F01191D24" name="ÐÐ½Ð³Ð» 1" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="3C06D6F4C6ABF326" name="ÐÐ½Ð³Ð» 2" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="107E8995BD8616B0" name="Ð¤Ð¸Ð·Ð› 1" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A84FC29799D27FFA" name="Ð¤Ð¸Ð·Ð› 2" classid="E0845F9C59BB47AD" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="1DB89424E7D846DF" name="Entire class" classid="A1EC060486A77D5C" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="761F88F306E0DAFE" name="Àíãë 1" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="954B6194C43F7B94" name="Àíãë 2" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="AB4C3F19752A62F5" name="ÔèçË 1" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="D6864AD9B280FDA2" name="ÔèçË 2" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="761F88F306E0DAFE" name="ÐÐ½Ð³Ð» 1" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="954B6194C43F7B94" name="ÐÐ½Ð³Ð» 2" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="AB4C3F19752A62F5" name="Ð¤Ð¸Ð·Ð› 1" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="D6864AD9B280FDA2" name="Ð¤Ð¸Ð·Ð› 2" classid="A1EC060486A77D5C" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="2DE9734CA26A1E3F" name="Entire class" classid="84F711D7224177D0" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="9FC0D5F9305E1686" name="Àíãë 1" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="64D47CE6B0974370" name="Àíãë 2" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="B8D7221659F4DD65" name="Èíô 1" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="FF201D26AE4017E5" name="Èíô 2" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="597DD881B12CBDA8" name="ÔèçË 1" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
-      <group id="28D64059725AA4C6" name="ÔèçË 2" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="9FC0D5F9305E1686" name="ÐÐ½Ð³Ð» 1" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="64D47CE6B0974370" name="ÐÐ½Ð³Ð» 2" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B8D7221659F4DD65" name="Ð˜Ð½Ñ„ 1" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="FF201D26AE4017E5" name="Ð˜Ð½Ñ„ 2" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="597DD881B12CBDA8" name="Ð¤Ð¸Ð·Ð› 1" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="28D64059725AA4C6" name="Ð¤Ð¸Ð·Ð› 2" classid="84F711D7224177D0" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
       <group id="6278288B2FE677C8" name="Entire class" classid="A946F8BE37565A6D" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="3F8D6CE5C8718F3E" name="Àíãë 1" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="4E9C1B52629B91EE" name="Àíãë 2" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="8BCFB6CE794CEBB2" name="Èíô 1" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="710FFF10A931AA12" name="Èíô 2" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="7E6B22104ACA8E5C" name="ÔèçË 1" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
-      <group id="5FB37E857E954782" name="ÔèçË 2" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="3F8D6CE5C8718F3E" name="ÐÐ½Ð³Ð» 1" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="4E9C1B52629B91EE" name="ÐÐ½Ð³Ð» 2" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="8BCFB6CE794CEBB2" name="Ð˜Ð½Ñ„ 1" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="710FFF10A931AA12" name="Ð˜Ð½Ñ„ 2" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="7E6B22104ACA8E5C" name="Ð¤Ð¸Ð·Ð› 1" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
+      <group id="5FB37E857E954782" name="Ð¤Ð¸Ð·Ð› 2" classid="A946F8BE37565A6D" studentids="" entireclass="0" divisiontag="3" studentcount=""/>
       <group id="A3AE0E712820A4A7" name="Entire class" classid="179D1FD4EF3A5FC7" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="774E0E69662132B1" name="Àíãë 1" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="E7E7EDDF3DF2E118" name="Àíãë 2" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="D3B1B4D09C4F8F0D" name="Èíô/ÔèçË 1" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="5974434D17AE5E41" name="Èíô/ÔèçË 2" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="774E0E69662132B1" name="ÐÐ½Ð³Ð» 1" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="E7E7EDDF3DF2E118" name="ÐÐ½Ð³Ð» 2" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="D3B1B4D09C4F8F0D" name="Ð˜Ð½Ñ„/Ð¤Ð¸Ð·Ð› 1" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5974434D17AE5E41" name="Ð˜Ð½Ñ„/Ð¤Ð¸Ð·Ð› 2" classid="179D1FD4EF3A5FC7" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="419503CB86C16F52" name="Entire class" classid="7E448B88058182F1" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
       <group id="E75E5D1FD3C0B9A6" name="Entire class" classid="7C6D8EDCD683760B" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
       <group id="78654AF1645E74B5" name="Entire class" classid="FAB38194E56074DA" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="5ECDF2996B3B5DF8" name="Àíãë 1" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="121F530F46244AB8" name="Àíãë 2" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="83D742E6328BFDAA" name="Èíô/ÔèçË 1" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="E17381002EFEF34A" name="Èíô/ÔèçË 2" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="5ECDF2996B3B5DF8" name="ÐÐ½Ð³Ð» 1" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="121F530F46244AB8" name="ÐÐ½Ð³Ð» 2" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="83D742E6328BFDAA" name="Ð˜Ð½Ñ„/Ð¤Ð¸Ð·Ð› 1" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="E17381002EFEF34A" name="Ð˜Ð½Ñ„/Ð¤Ð¸Ð·Ð› 2" classid="FAB38194E56074DA" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
       <group id="83CFB392D3BF22C6" name="Entire class" classid="23248263C2BF88F5" studentids="" entireclass="1" divisiontag="0" studentcount=""/>
-      <group id="6247D96155A0C70F" name="Àíãë 1" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="FE5851DA95DEBEF9" name="Àíãë 2" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
-      <group id="B30B9E578D1A9ACB" name="Èíô/ÔèçË 1" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
-      <group id="A7D2CB804F2DFA30" name="Èíô/ÔèçË 2" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="6247D96155A0C70F" name="ÐÐ½Ð³Ð» 1" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="FE5851DA95DEBEF9" name="ÐÐ½Ð³Ð» 2" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="1" studentcount=""/>
+      <group id="B30B9E578D1A9ACB" name="Ð˜Ð½Ñ„/Ð¤Ð¸Ð·Ð› 1" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
+      <group id="A7D2CB804F2DFA30" name="Ð˜Ð½Ñ„/Ð¤Ð¸Ð·Ð› 2" classid="23248263C2BF88F5" studentids="" entireclass="0" divisiontag="2" studentcount=""/>
    </groups>
    <students options="canadd,export:silent" columns="id,classid,name,number,email,mobile,partner_id,firstname,lastname"/>
    <studentsubjects options="canadd,export:silent" columns="studentid,subjectid,seminargroup,importance,alternatefor"/>

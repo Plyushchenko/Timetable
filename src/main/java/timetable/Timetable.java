@@ -105,7 +105,6 @@ class Timetable {
             List<Lesson> lessons = schoolClass.getLessons();
             for (Lesson lesson: lessons) {
                 DayTimeSlot dayTimeSlot = getFreeDayTimeSlot(lesson);
-                //TODO new Pair every time
                 SchoolGroup schoolGroup = lesson.getSchoolGroup();
                 lessonByTime.put(new Pair<>(dayTimeSlot, schoolGroup), lesson);
             }
@@ -124,7 +123,6 @@ class Timetable {
     }
 
     private boolean isFree(DayTimeSlot dayTimeSlot, Lesson lesson) {
-        //TODO убедиться
         if (lesson == null) {
             return true;
         }
@@ -383,7 +381,7 @@ class Timetable {
         return bestTimetable;
     }
 
-    Timetable generateNeighbour() {
+    private Timetable generateNeighbour() {
 
         Timetable neighbourTimetable;
         int day = random.nextInt(DayTimeSlot.DAYS);
@@ -427,17 +425,6 @@ class Timetable {
         }
     }
 
-/*
-    private boolean isFree(DayTimeSlot dayTimeSlot, SchoolClass schoolClass) {
-        for (SchoolGroup schoolGroup: schoolClass.getSchoolGroups()) {
-            if (lessonByTime.get(new Pair<>(dayTimeSlot, schoolGroup)) != null) {
-                return false;
-            }
-        }
-        return true;
-    }
-*/
-
     void print() throws IOException {
 
         Path timetablePath = Files.createFile(Paths.get(Main.RESOURCES_PATH.toString(),
@@ -449,14 +436,19 @@ class Timetable {
         FileChannel destination = new FileOutputStream(timetablePath.toFile()).getChannel();
         destination.transferFrom(source, 0, source.size());
 
-        out.println("   <cards options=\"canadd,export:silent\" columns=\"lessonid,period,days,weeks,terms,classroomids\">");
+        out.println("   <cards options=\"canadd,export:silent\" columns=\"lessonid,period,days," +
+                "weeks,terms,classroomids\">");
 
         for (int i = 0; i < 6; i++) {
             for (SchoolClass schoolClass: schoolClasses) {
-                System.out.println("CLASS IS " + schoolClass.getName() + ", DAY = " + i + ", BUILDING = " + buildingByDay.get(new Pair<>(i, schoolClass)).getId() + " ");
+                System.out.println("CLASS IS " + schoolClass.getName() + ", DAY = " + i
+                        + ", BUILDING = " + buildingByDay.get(new Pair<>(i, schoolClass)).getId()
+                        + " ");
                 for (int j = 0; j < 8; j++) {
                     for (SchoolGroup schoolGroup: schoolClass.getSchoolGroups()) {
-                        Lesson lesson = lessonByTime.get(new Pair<>(DayTimeSlot.slotByDayAndTime[i][j], schoolGroup));
+                        Lesson lesson = lessonByTime.get(
+                                new Pair<>(DayTimeSlot.slotByDayAndTime[i][j], schoolGroup)
+                        );
                         if (lesson == null) {
                             continue;
                         }
@@ -465,23 +457,24 @@ class Timetable {
                         String b = lesson.getTeacher().getName();
                         String c = lesson.getSchoolGroup().getId();
                         boolean d = lesson.getSchoolGroup().isEntireClass();
-                        System.out.println("CLASS: " + schoolClass.getName() + " " + " LESSON #" + j + " " + a + " " + b + " " + c + " IS ENTIRE CLASS " + d);
+                        System.out.println("CLASS: " + schoolClass.getName() + " "
+                                + " LESSON #" + j + " " + a + " " + b + " " + c
+                                + " IS ENTIRE CLASS " + d);
                     }
                 }
             }
         }
-
         out.println("   </cards>");
         out.println("</timetable>");
         out.close();
         System.out.println("XML FILE IS AT " + timetablePath.toString());
-
     }
 
     private void printCard(PrintWriter out, int i, int j, Lesson lesson) {
         /*
         Format:
-        <card lessonid="EC9D7298C0920B8D" classroomids="" period="2" weeks="1" terms="1" days="100000"/>
+        <card lessonid="EC9D7298C0920B8D" classroomids="" period="2" weeks="1" terms="1"
+        days="100000"/>
          */
         out.print("      <card lessonid=\"" + lesson.getId()
                 + "\" classroomids=\"\" period=\"" + (j + 1) + "\" weeks=\"1\" terms=\"1\" days=\"");

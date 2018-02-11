@@ -11,10 +11,8 @@ class SchoolGroup extends TimetableXMLObject {
     studentids="" entireclass="1" divisiontag="0" studentcount=""/>
      */
     private final static String CLASS_ID = "classid";
-    private final static String NAME = "name";
     private final static String ENTIRE_CLASS = "entireclass";
     private final static String DIVISION_TAG = "divisiontag";
-    public final static int ENTIRE_CLASS_DIVISION_TAG = 0;
     private final boolean entireClass;
     private final int divisionTag;
     private final SchoolClass schoolClass;
@@ -34,10 +32,6 @@ class SchoolGroup extends TimetableXMLObject {
         return entireClass;
     }
 
-    boolean isNotEntireClass() {
-        return !isEntireClass();
-    }
-
     int getDivisionTag() {
         return divisionTag;
     }
@@ -46,15 +40,15 @@ class SchoolGroup extends TimetableXMLObject {
         this.pairSchoolGroup = schoolGroup;
     }
 
-    public SchoolGroup getPairSchoolGroup() {
+    SchoolGroup getPairSchoolGroup() {
         return pairSchoolGroup;
     }
 
-    public List<SchoolGroup> getSchoolGroupsOfSchoolClass() {
+    List<SchoolGroup> getSchoolGroupsOfSchoolClass() {
         return schoolClass.getSchoolGroups();
     }
 
-    public SchoolClass getSchoolClass() {
+    SchoolClass getSchoolClass() {
         return schoolClass;
     }
 }

@@ -47,16 +47,9 @@ public class Main {
         try {
             extractRequiredInformation(TIMETABLE_XML_FILE);
             createBuildings(subjects);
-            /**/
-            for (SchoolClass schoolClass: schoolClasses) {
-                EquationSystemBuilder.build(schoolClass);
-            }
-            /**/
             Timetable timetable = new Timetable(schoolClasses, schoolGroups).simulatedAnnealing(TEMPERATURE, COOLING_RATE);
             timetable.print();
             System.out.println("PENALTY IS " + timetable.evaluatePenalty());
-            //timetable = timetable.generateNeighbour();
-            //System.out.println("PENALTY IS " + timetable.evaluatePenalty());
             System.out.println("DONE");
         } catch (IOException | SAXException | ParserConfigurationException e) {
             e.printStackTrace();

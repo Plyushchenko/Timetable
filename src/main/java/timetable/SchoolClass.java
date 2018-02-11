@@ -2,18 +2,15 @@ package timetable;
 
 import org.w3c.dom.NamedNodeMap;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-public class SchoolClass extends TimetableXMLObject {
+class SchoolClass extends TimetableXMLObject {
     /*
     Format:
     <class id="E06839D1C346DD93" name="5-а" short="5-а" teacherid="" classroomids="" grade="5" partner_id=""/>
      */
     private final List<Lesson> lessons = new ArrayList<>();
     private final List<SchoolGroup> schoolGroups = new ArrayList<>();
-    private Lesson pairedDoubleSameLesson;
-    private Lesson pairedDoubleDifferentLesson;
     private final String name;
 
     SchoolClass(NamedNodeMap attributes) {
@@ -26,20 +23,9 @@ public class SchoolClass extends TimetableXMLObject {
         return lessons.size();
     }
 
+
     void addLesson(Lesson lesson) {
-        int perWeek = lesson.getPerWeek();
-        if (lesson.getLessonType() == LessonType.DOUBLE_SAME) {
-            if (pairedDoubleSameLesson == null) {
-                pairedDoubleSameLesson = lesson;
-                return;
-            }
-        } else  if (lesson.getLessonType() == LessonType.DOUBLE_DIFFERENT) {
-            if (pairedDoubleDifferentLesson == null) {
-                pairedDoubleDifferentLesson = lesson;
-                return;
-            }
-        }
-        for (int i = 0; i < perWeek; i++) {
+        for (int i = 0; i < lesson.getPerWeek(); i++) {
             lessons.add(lesson);
         }
     }
@@ -52,13 +38,20 @@ public class SchoolClass extends TimetableXMLObject {
         return name;
     }
 
-    Lesson getPairedDoubleSameLesson() {
-        return pairedDoubleSameLesson;
+    void addSchoolGroup(SchoolGroup schoolGroup) {
+        int divisionTag = schoolGroup.getDivisionTag();
+        for (SchoolGroup current : schoolGroups) {
+            if (current.getDivisionTag() == divisionTag && divisionTag != 0) {
+                schoolGroup.setPairSchoolGroup(current);
+                current.setPairSchoolGroup(schoolGroup);
+                break;
+            }
+        }
+        schoolGroups.add(schoolGroup);
     }
 
-    Lesson getPairedDoubleDifferentLesson() {
-        return pairedDoubleDifferentLesson;
+    public List<SchoolGroup> getSchoolGroups() {
+        return schoolGroups;
     }
-
 }
 

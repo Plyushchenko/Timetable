@@ -21,7 +21,8 @@ import static java.util.stream.Collectors.toSet;
 public class Main {
     final static Path RESOURCES_PATH
             = Paths.get("src", "main", "resources");
-    private final static Path TIMETABLE_XML_PATH = Paths.get(RESOURCES_PATH.toString(), "timetable.xml");
+    private final static Path TIMETABLE_XML_PATH
+            = Paths.get(RESOURCES_PATH.toString(), "timetable.xml");
     private final static String TIMETABLE_XML_PATH_AS_STRING = TIMETABLE_XML_PATH.toString();
     private final static File TIMETABLE_XML_FILE = new File(TIMETABLE_XML_PATH_AS_STRING);
     private final static String SUBJECTS = "subjects";
@@ -38,6 +39,7 @@ public class Main {
     ).collect(toSet());
     private final static List<Subject> subjects = new ArrayList<>();
     private final static List<SchoolClass> schoolClasses = new ArrayList<>();
+    private final static List<SchoolGroup> schoolGroups = new ArrayList<>();
     private static final double TEMPERATURE = 2000000;
     private static final double COOLING_RATE = 0.99;
 
@@ -45,12 +47,17 @@ public class Main {
         try {
             extractRequiredInformation(TIMETABLE_XML_FILE);
             createBuildings(subjects);
-            Timetable timetable = new Timetable(schoolClasses).simulatedAnnealing(TEMPERATURE,
-                    COOLING_RATE);
+            /**/
+            for (SchoolClass schoolClass: schoolClasses) {
+                EquationSystemBuilder.build(schoolClass);
+            }
+            /**/
+            Timetable timetable = new Timetable(schoolClasses, schoolGroups).simulatedAnnealing(TEMPERATURE, COOLING_RATE);
             timetable.print();
             System.out.println("PENALTY IS " + timetable.evaluatePenalty());
+            //timetable = timetable.generateNeighbour();
+            //System.out.println("PENALTY IS " + timetable.evaluatePenalty());
             System.out.println("DONE");
-
         } catch (IOException | SAXException | ParserConfigurationException e) {
             e.printStackTrace();
         }
@@ -68,7 +75,7 @@ public class Main {
                 for (NamedNodeMap currentAttributes: attributes) {
                     switch (childName) {
                         case GROUPS:
-                            new SchoolGroup(currentAttributes);
+                            schoolGroups.add(new SchoolGroup(currentAttributes));
                             break;
                         case SUBJECTS:
                             subjects.add(new Subject(currentAttributes));

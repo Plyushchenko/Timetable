@@ -9,7 +9,7 @@ class SchoolClass extends TimetableXMLObject {
     Format:
     <class id="E06839D1C346DD93" name="5-а" short="5-а" teacherid="" classroomids="" grade="5"
     partner_id=""/>
-     */
+    */
     private final List<Lesson> lessons = new ArrayList<>();
     private final List<SchoolGroup> schoolGroups = new ArrayList<>();
     private final String name;
@@ -17,13 +17,8 @@ class SchoolClass extends TimetableXMLObject {
     SchoolClass(NamedNodeMap attributes) {
         super(attributes);
         GetterById.addSchoolClassById(getId(), this);
-        name = getStringValue("name");
+        name = getStringValue(NAME);
     }
-
-    int getPerWeek() {
-        return lessons.size();
-    }
-
 
     void addLesson(Lesson lesson) {
         for (int i = 0; i < lesson.getPerWeek(); i++) {
@@ -51,7 +46,7 @@ class SchoolClass extends TimetableXMLObject {
         schoolGroups.add(schoolGroup);
     }
 
-    public List<SchoolGroup> getSchoolGroups() {
+    List<SchoolGroup> getSchoolGroups() {
         return schoolGroups;
     }
 }

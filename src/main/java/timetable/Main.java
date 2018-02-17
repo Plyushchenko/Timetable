@@ -46,7 +46,6 @@ public class Main {
     public static void main(String[] args) {
         try {
             extractRequiredInformation(TIMETABLE_XML_FILE);
-            createBuildings(subjects);
             Timetable timetable = new Timetable(schoolClasses, schoolGroups).simulatedAnnealing(TEMPERATURE, COOLING_RATE);
             timetable.print();
             System.out.println("PENALTY IS " + timetable.evaluatePenalty());
@@ -86,10 +85,11 @@ public class Main {
                 }
             }
         }
+        createBuildings();
     }
 
-    private static void createBuildings(List<Subject> subjects)  {
-        Set<Subject> forbiddenSubjectsForSecondBuilding = Stream.of(
+    private static void createBuildings()  {
+        final Set<Subject> forbiddenSubjectsForSecondBuilding = Stream.of(
                 "E1376672B6D4C7D2",
                 "FDF98D50C526934D"
         ).map(GetterById::getSubjectById).collect(toSet());

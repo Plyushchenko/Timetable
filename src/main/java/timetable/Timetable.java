@@ -41,7 +41,7 @@ class Timetable {
     private final static int PENALTY_TOO_MANY_CHANGES_PER_WEEK = 10;
     private final static int ALLOWED_CHANGES_PER_DAY = 1;
     private final static int ALLOWED_CHANGES_PER_WEEK = 2;
-    private static final int BOUND = 50;
+    private static final int BOUND = 300;
     private static final int PENALTY_OPENING = 5;
     private final Map<Pair<DayTimeSlot, SchoolGroup>, Lesson> lessonByTime;
     private final Map<Pair<Integer, SchoolClass>, Building> buildingByDay;

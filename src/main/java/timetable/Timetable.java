@@ -41,8 +41,8 @@ class Timetable {
     private final static int PENALTY_TOO_MANY_CHANGES_PER_WEEK = 10;
     private final static int ALLOWED_CHANGES_PER_DAY = 1;
     private final static int ALLOWED_CHANGES_PER_WEEK = 2;
-    private static final int BOUND = 300;
-    private static final int PENALTY_OPENING = 5;
+    private static final int BOUND = 125;
+    private static final int PENALTY_OPENING = 8;
     private final Map<Pair<DayTimeSlot, SchoolGroup>, Lesson> lessonByTime;
     private final Map<Pair<Integer, SchoolClass>, Building> buildingByDay;
     private final List<SchoolClass> schoolClasses;
@@ -179,8 +179,8 @@ class Timetable {
 
     private int evaluatePenaltyOfOpenings(Map<SchoolGroup, List<Boolean>> isLessonBySchoolGroup) {
         int penalty = 0;
-        for (List<Boolean> isLesson: isLessonBySchoolGroup.values()) {
-            penalty += evaluatePenaltyOfOpenings(isLesson);
+        for (SchoolGroup schoolGroup: isLessonBySchoolGroup.keySet()) {
+            penalty += evaluatePenaltyOfOpenings(isLessonBySchoolGroup.get(schoolGroup));
         }
         return penalty;
     }
@@ -244,9 +244,9 @@ class Timetable {
     private int evaluatePenaltyOfHavingMoreThenOneLessonAtOnce(Map<Teacher,
             Set<Lesson>> lessonsOfTeachers) {
         int penalty = 0;
-        for (Set<Lesson> lessonsOfTeacher : lessonsOfTeachers.values()) {
-            penalty += (lessonsOfTeacher.size() - 1) *
-                    PENALTY_TEACHER_HAS_MORE_THAN_ONE_LESSON_AT_ONCE;
+        for (Teacher teacher: lessonsOfTeachers.keySet()) {
+            Set<Lesson> lessons = lessonsOfTeachers.get(teacher);
+            penalty += (lessons.size() - 1) * PENALTY_TEACHER_HAS_MORE_THAN_ONE_LESSON_AT_ONCE;
         }
         return penalty;
     }

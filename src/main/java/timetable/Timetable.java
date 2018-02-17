@@ -41,7 +41,8 @@ class Timetable {
     private final static int PENALTY_TOO_MANY_CHANGES_PER_WEEK = 10;
     private final static int ALLOWED_CHANGES_PER_DAY = 1;
     private final static int ALLOWED_CHANGES_PER_WEEK = 2;
-    private static final int BOUND = 0;
+    private static final int BOUND = 50;
+    private static final int PENALTY_OPENING = 5;
     private final Map<Pair<DayTimeSlot, SchoolGroup>, Lesson> lessonByTime;
     private final Map<Pair<Integer, SchoolClass>, Building> buildingByDay;
     private final List<SchoolClass> schoolClasses;
@@ -145,15 +146,19 @@ class Timetable {
         int penalty = 0;
         Map<Teacher, List<List<Integer>>> buildingsOfTeachers = new HashMap<>();
         for (int day = 0; day < DayTimeSlot.DAYS; day++) {
+            Map<SchoolGroup, List<Boolean>> isLessonBySchoolGroup = createIsLessonBySchoolGroup();
             for (int time = 0; time < DayTimeSlot.LESSONS; time++) {
                 Map<Teacher, Set<Lesson>> lessonsOfTeachers = new HashMap<>();
                 for (SchoolGroup schoolGroup: schoolGroups) {
+                    List<Boolean> isLesson = isLessonBySchoolGroup.get(schoolGroup);
                     Lesson lesson = lessonByTime.get(
                             new Pair<>(DayTimeSlot.slotByDayAndTime[day][time], schoolGroup)
                     );
                     if (lesson == null) {
+                        isLesson.add(time, false);
                         continue;
                     }
+                    isLesson.add(time, true);
                     penalty += evaluatePenaltyOfLesson(
                             day,
                             time,
@@ -165,10 +170,50 @@ class Timetable {
                 }
                 penalty += evaluatePenaltyOfHavingMoreThenOneLessonAtOnce(lessonsOfTeachers);
             }
+            penalty += evaluatePenaltyOfOpenings(isLessonBySchoolGroup);
         }
         penalty += evaluatePenaltyOfClassesAtFirstBuilding();
         penalty += evaluatePenaltyOfTeachersBuildings(buildingsOfTeachers);
         return penalty;
+    }
+
+    private int evaluatePenaltyOfOpenings(Map<SchoolGroup, List<Boolean>> isLessonBySchoolGroup) {
+        int penalty = 0;
+        for (List<Boolean> isLesson: isLessonBySchoolGroup.values()) {
+            penalty += evaluatePenaltyOfOpenings(isLesson);
+        }
+        return penalty;
+    }
+
+    private int evaluatePenaltyOfOpenings(List<Boolean> isLesson) {
+        int penalty = 0;
+        int l = 0;
+        while (l < isLesson.size() && !isLesson.get(l)) {
+            l++;
+        }
+        int r = isLesson.size() - 1;
+        while (r >= l && !isLesson.get(r)) {
+            r--;
+        }
+        for (int i = l; i <= r; i++) {
+            if (!isLesson.get(i)) {
+                penalty += PENALTY_OPENING;
+            }
+        }
+        return penalty;
+    }
+
+
+    private Map<SchoolGroup,List<Boolean>> createIsLessonBySchoolGroup() {
+        Map<SchoolGroup, List<Boolean>> isLessonBySchoolGroup = new HashMap<>();
+        for (SchoolGroup schoolGroup: schoolGroups) {
+            List<Boolean> isLesson = new ArrayList<>();
+            for (int time = 0; time < DayTimeSlot.LESSONS; time++) {
+                isLesson.add(false);
+            }
+            isLessonBySchoolGroup.put(schoolGroup, isLesson);
+        }
+        return isLessonBySchoolGroup;
     }
 
     private int evaluatePenaltyOfTeachersBuildings(

@@ -88,7 +88,6 @@ public class Main {
         }
     }
 
-
     private static void createBuildings(List<Subject> subjects)  {
         Set<Subject> forbiddenSubjectsForSecondBuilding = Stream.of(
                 "E1376672B6D4C7D2",
